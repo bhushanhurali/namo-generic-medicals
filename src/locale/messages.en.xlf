@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-IN">
+  <file id="ngi18n" original="ng.template">
+    <unit id="site.name">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:4</note>
+        <note category="description">Public business name</note>
+        <note category="meaning">Pharmacy name</note>
+      </notes>
+      <segment>
+        <source>Namo Generic Medicals</source>
+      </segment>
+    </unit>
+    <unit id="site.comingSoon">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:5</note>
+        <note category="description">Placeholder while the site is built</note>
+        <note category="meaning">Starter message</note>
+      </notes>
+      <segment>
+        <source>Our website is taking shape.</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

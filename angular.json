@@ -2,7 +2,8 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": false
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -29,7 +30,8 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.scss"]
+            "styles": ["src/styles.scss"],
+            "polyfills": ["@angular/localize/init"]
           },
           "configurations": {
             "production": {
@@ -51,6 +53,10 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "kn": {
+              "localize": ["kn"],
+              "i18nMissingTranslation": "error"
             }
           },
           "defaultConfiguration": "production"
@@ -63,12 +69,32 @@
             },
             "development": {
               "buildTarget": "namo-generic-medicals:build:development"
+            },
+            "kn": {
+              "buildTarget": "namo-generic-medicals:build:development,kn"
             }
           },
           "defaultConfiguration": "development"
         },
         "test": {
           "builder": "@angular/build:unit-test"
+        },
+        "extract-i18n": {
+          "builder": "@angular/build:extract-i18n",
+          "options": {
+            "format": "xlf2",
+            "outputPath": "src/locale",
+            "outFile": "messages.en.xlf"
+          }
+        }
+      },
+      "i18n": {
+        "sourceLocale": "en-IN",
+        "locales": {
+          "kn": {
+            "translation": "src/locale/messages.kn.xlf",
+            "subPath": "kn"
+          }
         }
       }
     }
