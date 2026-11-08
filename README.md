@@ -26,13 +26,30 @@ GitHub Actions runs formatting, unit tests, and the production build for pushes 
 
 ## Current stage
 
-Project configuration and a minimal starter shell only. No deployment is configured yet.
+Project configuration, a minimal starter shell, and centralised light/dark theme styles. No deployment is configured yet.
 
 ## Next stages
 
-- Centralise the primary green (#087F5B) and add light/dark theme tokens.
 - Prepare English content and localisation for future Kannada support.
 - Build shared layout and theme toggle, followed by individual page sections.
 - Add branch contact actions and configure static hosting.
 
 The application requires no backend. Business content and website sections will be added incrementally.
+
+## Theme foundations
+
+Edit `$primary` in `src/styles/_theme.scss` to change the brand colour in one place.
+Components use semantic CSS variables for backgrounds, surfaces, text, borders, links,
+and focus states. Brand tints and dark-theme links derive from the primary colour.
+Check text contrast whenever changing the brand colour.
+
+Light is the default. The dark palette is selected by `data-theme="dark"` on the
+root `<html>` element. To preview it before the toggle is built, run this in the
+browser developer console:
+
+```js
+document.documentElement.dataset.theme = 'dark';
+```
+
+Restore light with `document.documentElement.removeAttribute('data-theme')`.
+The interactive toggle and saved preference will be added with the shared layout.

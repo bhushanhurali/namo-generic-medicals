@@ -1,0 +1,32 @@
+// Change this value to update the brand colour throughout both themes.
+// $primary: #087f5b; // dark green
+$primary: #1bb2b0;
+
+:root {
+  --color-primary: #{$primary};
+  --color-primary-hover: color-mix(in srgb, var(--color-primary), black 15%);
+  --color-on-primary: #ffffff;
+
+  // Light is the default, regardless of the operating system preference.
+  color-scheme: light;
+  --color-background: #f6f8f7;
+  --color-surface: #ffffff;
+  --color-text: #182c25;
+  --color-text-muted: #4f635a;
+  --color-border: #d2ded7;
+  --color-link: var(--color-primary);
+  --color-focus: var(--color-primary);
+  --color-primary-soft: color-mix(in srgb, var(--color-primary) 9%, var(--color-surface));
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-background: #101a16;
+  --color-surface: #192720;
+  --color-text: #edf5f0;
+  --color-text-muted: #b4c7bb;
+  --color-border: #3b5144;
+  --color-link: color-mix(in srgb, var(--color-primary) 45%, white);
+  --color-focus: var(--color-link);
+  --color-primary-soft: color-mix(in srgb, var(--color-primary) 18%, var(--color-surface));
+}
