@@ -21,5 +21,104 @@
         <source>Our website is taking shape.</source>
       </segment>
     </unit>
+    <unit id="layout.neighbourhood">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:6</note>
+        <note category="description">Header tagline</note>
+      </notes>
+      <segment>
+        <source>Your neighbourhood pharmacy.</source>
+      </segment>
+    </unit>
+    <unit id="layout.location">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:7</note>
+        <note category="description">Service area</note>
+      </notes>
+      <segment>
+        <source>Hubli–Dharwad</source>
+      </segment>
+    </unit>
+    <unit id="nav.home">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:8</note>
+        <note category="description">Navigation link</note>
+      </notes>
+      <segment>
+        <source>Home</source>
+      </segment>
+    </unit>
+    <unit id="nav.main">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:9</note>
+        <note category="description">Accessible navigation label</note>
+      </notes>
+      <segment>
+        <source>Main navigation</source>
+      </segment>
+    </unit>
+    <unit id="nav.open">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:10</note>
+        <note category="description">Menu button label</note>
+      </notes>
+      <segment>
+        <source>Open navigation</source>
+      </segment>
+    </unit>
+    <unit id="nav.close">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:11</note>
+        <note category="description">Menu button label</note>
+      </notes>
+      <segment>
+        <source>Close navigation</source>
+      </segment>
+    </unit>
+    <unit id="theme.dark">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:12</note>
+        <note category="description">Theme button action</note>
+      </notes>
+      <segment>
+        <source>Switch to dark theme</source>
+      </segment>
+    </unit>
+    <unit id="theme.light">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:13</note>
+        <note category="description">Theme button action</note>
+      </notes>
+      <segment>
+        <source>Switch to light theme</source>
+      </segment>
+    </unit>
+    <unit id="nav.skip">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:14</note>
+        <note category="description">Keyboard navigation link</note>
+      </notes>
+      <segment>
+        <source>Skip to content</source>
+      </segment>
+    </unit>
+    <unit id="nav.top">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:15</note>
+        <note category="description">Footer navigation link</note>
+      </notes>
+      <segment>
+        <source>Back to top</source>
+      </segment>
+    </unit>
+    <unit id="footer.rights">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:16</note>
+        <note category="description">Copyright notice</note>
+      </notes>
+      <segment>
+        <source>All rights reserved.</source>
+      </segment>
+    </unit>
   </file>
 </xliff>

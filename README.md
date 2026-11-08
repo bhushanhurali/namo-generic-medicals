@@ -26,11 +26,11 @@ GitHub Actions runs formatting, unit tests, and the production build for pushes 
 
 ## Current stage
 
-Project configuration, a minimal starter shell, centralised light/dark theme styles, and English localisation foundations. No deployment is configured yet.
+Shared responsive layout, light/dark theme switching, and English/Kannada localisation foundations. No deployment is configured yet.
 
 ## Next stages
 
-- Build shared layout and theme toggle, followed by individual page sections.
+- Build individual page sections.
 - Add branch contact actions and configure static hosting.
 
 The application requires no backend. Business content and website sections will be added incrementally.
@@ -42,16 +42,14 @@ Components use semantic CSS variables for backgrounds, surfaces, text, borders, 
 and focus states. Brand tints and dark-theme links derive from the primary colour.
 Check text contrast whenever changing the brand colour.
 
-Light is the default. The dark palette is selected by `data-theme="dark"` on the
-root `<html>` element. To preview it before the toggle is built, run this in the
-browser developer console:
+Light is the default on a first visit. The header moon/sun button switches themes
+and saves the choice under `namo-theme` in browser local storage. A saved preference
+is restored when the application starts. If storage is blocked, switching still works
+for the current visit. OS dark-mode preference does not override the default.
 
-```js
-document.documentElement.dataset.theme = 'dark';
-```
-
-Restore light with `document.documentElement.removeAttribute('data-theme')`.
-The interactive toggle and saved preference will be added with the shared layout.
+The mobile navigation opens with the menu button and closes on Escape or a link
+selection. Home is the only navigation destination until more sections are built.
+The layout includes a keyboard skip link and a shared footer.
 
 ## Localisation
 
@@ -66,7 +64,7 @@ Do not edit that generated file directly; edit the content file and extract agai
 
 ## Kannada test preview
 
-The two current messages have Kannada translations in `src/locale/messages.kn.xlf`.
+The current content and shared-layout labels have Kannada translations in `src/locale/messages.kn.xlf`.
 The pharmacy name is transliterated as ನಮೋ ಜೆನೆರಿಕ್ ಮೆಡಿಕಲ್ಸ್.
 
 ```sh
@@ -88,3 +86,24 @@ As English copy grows, run `npm run i18n:extract` and update the Kannada catalog
 with matching IDs, English sources, and Kannada targets. Future accessible labels
 and page titles should also use localised messages. Allow text to wrap and use
 fonts that support Kannada.
+
+## Code structure
+
+```text
+src/app/
+  app-root/              Root component, template, styles, and tests
+  layout/
+    site-header/         Header component, template, styles, and tests
+    site-footer/         Footer component, template, and styles
+  core/
+    services/            Application-wide services and their tests
+  content/               Translatable visitor-facing messages
+  app.config.ts          Application providers
+  app.routes.ts          Route definitions
+```
+
+Keep each component in its own named folder with separate `.ts`, `.html`, and
+`.scss` files; colocate its `.spec.ts` file when tests are needed. Keep shared
+services under `core/services`. Add dedicated `core/guards` and `shared/directives`
+folders when those types are introduced, rather than mixing them with components.
+Future page components belong in their respective feature folders.

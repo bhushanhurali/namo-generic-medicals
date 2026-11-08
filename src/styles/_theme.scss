@@ -5,7 +5,7 @@ $primary: #1bb2b0;
 :root {
   --color-primary: #{$primary};
   --color-primary-hover: color-mix(in srgb, var(--color-primary), black 15%);
-  --color-on-primary: #ffffff;
+  --color-on-primary: #102421;
 
   // Light is the default, regardless of the operating system preference.
   color-scheme: light;
@@ -14,7 +14,7 @@ $primary: #1bb2b0;
   --color-text: #182c25;
   --color-text-muted: #4f635a;
   --color-border: #d2ded7;
-  --color-link: var(--color-primary);
+  --color-link: color-mix(in srgb, var(--color-primary) 60%, black);
   --color-focus: var(--color-primary);
   --color-primary-soft: color-mix(in srgb, var(--color-primary) 9%, var(--color-surface));
 }

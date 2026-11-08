@@ -1,0 +1,25 @@
+footer {
+  background: var(--color-surface);
+  border-block-start: 1px solid var(--color-border);
+  padding: 2rem 1rem;
+}
+.footer-inner,
+.copyright {
+  max-width: 72rem;
+  margin-inline: auto;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+p {
+  color: var(--color-text-muted);
+  margin-block: 0.4rem 0;
+}
+.copyright {
+  margin-block-start: 1.5rem;
+  font-size: 0.875rem;
+}

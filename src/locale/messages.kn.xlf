@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-IN" trgLang="kn">
   <file id="ngi18n" original="ng.template">
     <unit id="site.name">
@@ -17,6 +17,72 @@
       <segment>
         <source>Our website is taking shape.</source>
         <target>ನಮ್ಮ ವೆಬ್‌ಸೈಟ್ ರೂಪುಗೊಳ್ಳುತ್ತಿದೆ.</target>
+      </segment>
+    </unit>
+    <unit id="layout.neighbourhood">
+      <segment>
+        <source>Your neighbourhood pharmacy.</source>
+        <target>ನಿಮ್ಮ ನೆರೆಹೊರೆಯ ಔಷಧಾಲಯ.</target>
+      </segment>
+    </unit>
+    <unit id="layout.location">
+      <segment>
+        <source>Hubli–Dharwad</source>
+        <target>ಹುಬ್ಬಳ್ಳಿ–ಧಾರವಾಡ</target>
+      </segment>
+    </unit>
+    <unit id="nav.home">
+      <segment>
+        <source>Home</source>
+        <target>ಮುಖಪುಟ</target>
+      </segment>
+    </unit>
+    <unit id="nav.main">
+      <segment>
+        <source>Main navigation</source>
+        <target>ಮುಖ್ಯ ನ್ಯಾವಿಗೇಷನ್</target>
+      </segment>
+    </unit>
+    <unit id="nav.open">
+      <segment>
+        <source>Open navigation</source>
+        <target>ನ್ಯಾವಿಗೇಷನ್ ತೆರೆಯಿರಿ</target>
+      </segment>
+    </unit>
+    <unit id="nav.close">
+      <segment>
+        <source>Close navigation</source>
+        <target>ನ್ಯಾವಿಗೇಷನ್ ಮುಚ್ಚಿರಿ</target>
+      </segment>
+    </unit>
+    <unit id="theme.dark">
+      <segment>
+        <source>Switch to dark theme</source>
+        <target>ಡಾರ್ಕ್ ಥೀಮ್‌ಗೆ ಬದಲಿಸಿ</target>
+      </segment>
+    </unit>
+    <unit id="theme.light">
+      <segment>
+        <source>Switch to light theme</source>
+        <target>ಲೈಟ್ ಥೀಮ್‌ಗೆ ಬದಲಿಸಿ</target>
+      </segment>
+    </unit>
+    <unit id="nav.skip">
+      <segment>
+        <source>Skip to content</source>
+        <target>ವಿಷಯಕ್ಕೆ ನೇರವಾಗಿ ಹೋಗಿ</target>
+      </segment>
+    </unit>
+    <unit id="nav.top">
+      <segment>
+        <source>Back to top</source>
+        <target>ಮೇಲಕ್ಕೆ ಹಿಂತಿರುಗಿ</target>
+      </segment>
+    </unit>
+    <unit id="footer.rights">
+      <segment>
+        <source>All rights reserved.</source>
+        <target>ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.</target>
       </segment>
     </unit>
   </file>
