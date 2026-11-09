@@ -19,6 +19,7 @@ import { Icon } from '../../shared/components/icon/icon';
   selector: 'app-site-header',
   templateUrl: './site-header.html',
   styleUrl: './site-header.scss',
+  host: { '(document:pointerdown)': 'closeOnOutsidePointer($event)' },
 })
 export class SiteHeader {
   protected readonly content = SITE_CONTENT;
@@ -29,6 +30,18 @@ export class SiteHeader {
   private readonly element = inject<ElementRef<HTMLElement>>(ElementRef);
   private readonly document = inject(DOCUMENT);
   private readonly destroyRef = inject(DestroyRef);
+
+  protected closeOnOutsidePointer(event: PointerEvent): void {
+    if (!this.menuOpen()) return;
+    const host = this.element.nativeElement;
+    const target = event.target as Node | null;
+    if (
+      host.querySelector('nav')?.contains(target) ||
+      host.querySelector('.menu-toggle')?.contains(target)
+    )
+      return;
+    this.menuOpen.set(false);
+  }
 
   constructor() {
     afterNextRender(() => {

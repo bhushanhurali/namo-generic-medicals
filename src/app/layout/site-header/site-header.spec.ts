@@ -96,4 +96,32 @@ describe('SiteHeader', () => {
     await fixture.whenStable();
     expect(button.getAttribute('aria-expanded')).toBe('false');
   });
+
+  it('closes on outside pointer input while keeping menu controls usable', async () => {
+    const fixture = TestBed.createComponent(SiteHeader);
+    await fixture.whenStable();
+    const root = fixture.nativeElement as HTMLElement;
+    const toggle = root.querySelector<HTMLButtonElement>('.menu-toggle')!;
+    const theme = root.querySelector<HTMLButtonElement>('.preferences button')!;
+    toggle.click();
+    await fixture.whenStable();
+
+    theme.dispatchEvent(new Event('pointerdown', { bubbles: true }));
+    theme.click();
+    await fixture.whenStable();
+    expect(toggle.getAttribute('aria-expanded')).toBe('true');
+    expect(document.documentElement.dataset['theme']).toBe('dark');
+
+    toggle.dispatchEvent(new Event('pointerdown', { bubbles: true }));
+    await fixture.whenStable();
+    expect(toggle.getAttribute('aria-expanded')).toBe('true');
+
+    const outside = document.createElement('button');
+    document.body.append(outside);
+    outside.dispatchEvent(new Event('pointerdown', { bubbles: true }));
+    await fixture.whenStable();
+    expect(toggle.getAttribute('aria-expanded')).toBe('false');
+    expect(root.querySelector('nav')?.classList.contains('is-open')).toBe(false);
+    outside.remove();
+  });
 });
