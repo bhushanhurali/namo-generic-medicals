@@ -1,3 +1,79 @@
-<section id="home" class="page-section" aria-labelledby="home-heading" tabindex="-1">
-  <h1 id="home-heading">{{ content.home }}</h1>
+<section id="home" aria-labelledby="home-heading" tabindex="-1">
+  <div class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="dot" aria-hidden="true"></span>{{ content.eyebrow }}</span>
+      <h1 id="home-heading">
+        <span>{{ content.quality }}</span>
+        <span>{{ content.affordable }}</span>
+        <em>{{ content.better }}</em>
+      </h1>
+      <p class="lead">{{ content.lead }}</p>
+      <p>{{ content.description }}</p>
+      <div class="actions">
+        <a appButton href="#contact">
+          {{ content.order }}
+          <app-icon name="whatsapp" />
+        </a>
+        <a appButton="outline" href="#contact"
+          >{{ content.directions }}
+          <app-icon name="map-pin" />
+        </a>
+      </div>
+      <p class="hero-note">{{ content.note }}</p>
+    </div>
+    <div class="hero-visual">
+      <img
+        src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?auto=format&fit=crop&w=1200&q=85"
+        [alt]="content.imageAlt"
+        width="1200"
+        height="1300"
+        fetchpriority="high"
+      />
+      <span class="visual-tag"><span aria-hidden="true">✚</span> {{ content.localPharmacy }}</span>
+      <div class="care-card">
+        <span class="round-icon" aria-hidden="true">♡</span>
+        <div>
+          <strong>{{ content.careTitle }}</strong
+          ><small>{{ content.careSubtitle }}</small>
+        </div>
+      </div>
+      <span class="image-label">{{ content.imageLabel }}</span>
+    </div>
+  </div>
+  <ul class="benefits">
+    <li><span aria-hidden="true">✓</span>{{ content.benefitMedicines }}</li>
+    <li><span aria-hidden="true">♧</span>{{ content.benefitDelivery }}</li>
+    <li><span aria-hidden="true">♡</span>{{ content.benefitService }}</li>
+  </ul>
+  <div class="why" aria-labelledby="why-heading">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">{{ content.whyEyebrow }}</span>
+        <h2 id="why-heading">{{ content.whyTitle }}</h2>
+      </div>
+      <p>{{ content.whyDescription }}</p>
+    </div>
+    <div class="features">
+      <article>
+        <span class="icon" aria-hidden="true">✚</span>
+        <h3>{{ content.medicineTitle }}</h3>
+        <p>{{ content.medicineDescription }}</p>
+      </article>
+      <article>
+        <span class="icon" aria-hidden="true">₹</span>
+        <h3>{{ content.valueTitle }}</h3>
+        <p>{{ content.valueDescription }}</p>
+      </article>
+      <article>
+        <span class="icon" aria-hidden="true"><app-icon name="delivery" /></span>
+        <h3>{{ content.deliveryTitle }}</h3>
+        <p>{{ content.deliveryDescription }}</p>
+      </article>
+      <article>
+        <span class="icon" aria-hidden="true">☏</span>
+        <h3>{{ content.messageTitle }}</h3>
+        <p>{{ content.messageDescription }}</p>
+      </article>
+    </div>
+  </div>
 </section>

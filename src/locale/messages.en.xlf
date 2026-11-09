@@ -1,6 +1,286 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-IN">
   <file id="ngi18n" original="ng.template">
+    <unit id="home.eyebrow">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:3</note>
+        <note category="description">eyebrow</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>LOCAL CARE. EVERYDAY VALUE.</source>
+      </segment>
+    </unit>
+    <unit id="home.quality">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:4</note>
+        <note category="description">quality</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Quality Medicines.</source>
+      </segment>
+    </unit>
+    <unit id="home.affordable">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:5</note>
+        <note category="description">affordable</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Affordable Prices.</source>
+      </segment>
+    </unit>
+    <unit id="home.better">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:6</note>
+        <note category="description">better</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Better Care.</source>
+      </segment>
+    </unit>
+    <unit id="home.lead">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:7</note>
+        <note category="description">lead</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Your trusted neighborhood generic pharmacy in Hubli-Dharwad.</source>
+      </segment>
+    </unit>
+    <unit id="home.description">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:8</note>
+        <note category="description">description</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Affordable medicines and convenient home delivery, with friendly service that puts your family first.</source>
+      </segment>
+    </unit>
+    <unit id="home.order">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:9</note>
+        <note category="description">order</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Order via WhatsApp</source>
+      </segment>
+    </unit>
+    <unit id="home.directions">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:10</note>
+        <note category="description">directions</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Get Directions</source>
+      </segment>
+    </unit>
+    <unit id="home.note">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:11</note>
+        <note category="description">note</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Medicine availability and delivery subject to confirmation.</source>
+      </segment>
+    </unit>
+    <unit id="home.imageAlt">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:12</note>
+        <note category="description">imageAlt</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Illustrative assortment of packaged medicines</source>
+      </segment>
+    </unit>
+    <unit id="home.imageLabel">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:13</note>
+        <note category="description">imageLabel</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>ILLUSTRATIVE PHARMACY IMAGE</source>
+      </segment>
+    </unit>
+    <unit id="home.careTitle">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:14</note>
+        <note category="description">careTitle</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Better care, within reach.</source>
+      </segment>
+    </unit>
+    <unit id="home.careSubtitle">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:15</note>
+        <note category="description">careSubtitle</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>For your health. For your budget.</source>
+      </segment>
+    </unit>
+    <unit id="home.localPharmacy">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:16</note>
+        <note category="description">localPharmacy</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Your local pharmacy</source>
+      </segment>
+    </unit>
+    <unit id="home.benefitMedicines">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:17</note>
+        <note category="description">benefitMedicines</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Affordable generic medicines</source>
+      </segment>
+    </unit>
+    <unit id="home.benefitDelivery">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:18</note>
+        <note category="description">benefitDelivery</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Home delivery available</source>
+      </segment>
+    </unit>
+    <unit id="home.benefitService">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:19</note>
+        <note category="description">benefitService</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Friendly local service</source>
+      </segment>
+    </unit>
+    <unit id="home.whyEyebrow">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:20</note>
+        <note category="description">whyEyebrow</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>A LITTLE MORE CARE</source>
+      </segment>
+    </unit>
+    <unit id="home.whyTitle">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:21</note>
+        <note category="description">whyTitle</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Good health shouldn’t stretch your budget.</source>
+      </segment>
+    </unit>
+    <unit id="home.whyDescription">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:22</note>
+        <note category="description">whyDescription</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Everyday essentials. Thoughtful service. A pharmacy you can feel comfortable visiting.</source>
+      </segment>
+    </unit>
+    <unit id="home.medicineTitle">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:23</note>
+        <note category="description">medicineTitle</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Affordable medicines</source>
+      </segment>
+    </unit>
+    <unit id="home.medicineDescription">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:24</note>
+        <note category="description">medicineDescription</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Generic medicines at budget-friendly prices, with appropriate options confirmed by your pharmacist.</source>
+      </segment>
+    </unit>
+    <unit id="home.valueTitle">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:25</note>
+        <note category="description">valueTitle</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>More value, every visit</source>
+      </segment>
+    </unit>
+    <unit id="home.valueDescription">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:26</note>
+        <note category="description">valueDescription</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Ask us about current prices and savings on selected medicines compared with relevant branded alternatives.</source>
+      </segment>
+    </unit>
+    <unit id="home.deliveryTitle">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:27</note>
+        <note category="description">deliveryTitle</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Care, delivered</source>
+      </segment>
+    </unit>
+    <unit id="home.deliveryDescription">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:28</note>
+        <note category="description">deliveryDescription</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Home delivery to eligible nearby areas. Call to confirm availability, delivery charges and timing.</source>
+      </segment>
+    </unit>
+    <unit id="home.messageTitle">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:29</note>
+        <note category="description">messageTitle</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Just a message away</source>
+      </segment>
+    </unit>
+    <unit id="home.messageDescription">
+      <notes>
+        <note category="location">src/app/content/home-content.ts:30</note>
+        <note category="description">messageDescription</note>
+        <note category="meaning">Home section</note>
+      </notes>
+      <segment>
+        <source>Check medicine availability, pricing and local delivery with a simple WhatsApp enquiry.</source>
+      </segment>
+    </unit>
     <unit id="site.name">
       <notes>
         <note category="location">src/app/content/site-content.ts:4</note>
@@ -27,7 +307,7 @@
         <note category="description">Header tagline</note>
       </notes>
       <segment>
-        <source>Your neighbourhood pharmacy.</source>
+        <source>Your neighbourhood pharmacy. Care that&apos;s closer to home.</source>
       </segment>
     </unit>
     <unit id="layout.location">

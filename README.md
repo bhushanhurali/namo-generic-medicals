@@ -48,7 +48,7 @@ is restored when the application starts. If storage is blocked, switching still 
 for the current visit. OS dark-mode preference does not override the default.
 
 The mobile navigation opens with the menu button and closes on Escape or a link
-selection. Navigation links to Home, About, Services, Gallery, and Contact. Each section currently contains its heading only.
+selection. Navigation links to Home, About, Services, Gallery, and Contact. Home contains the hero, benefits, and care cards. The remaining sections contain headings only.
 The layout includes a keyboard skip link and a shared footer.
 
 ## Localisation
@@ -111,7 +111,7 @@ Future page components belong in their respective feature folders.
 ## Section layout
 
 Each page section has its own component folder under `src/app/features/`.
-Only headings are present at this stage; section content will be added individually.
+Home is implemented; the other sections remain heading-only placeholders.
 Shared section spacing is defined by `.page-section` in `src/styles.scss`.
 
 Navigation uses native fragment links (`#home`, `#about`, `#services`, `#gallery`,
@@ -119,3 +119,39 @@ Navigation uses native fragment links (`#home`, `#about`, `#services`, `#gallery
 above section headings. At widths up to 64rem the header scrolls with the page,
 so the expanded mobile menu cannot cover a destination after navigation.
 Smooth scrolling is disabled when the visitor prefers reduced motion.
+
+## Home section
+
+Home recreates the original pharmacy website's hero, medicine image, benefits strip,
+and four care cards. All Home messages, including the image description, are in
+`src/app/content/home-content.ts`, with Kannada translations in the locale catalogue.
+It uses the shared theme colours and adapts to narrow screens and Kannada text.
+The illustrative pharmacy image is hosted by Unsplash, as on the original website.
+
+Both hero actions currently navigate to Contact, matching the original site's
+branch-selection flow. Branch selection, WhatsApp enquiries, and directions will
+be connected when Contact is implemented. No messages are sent by these links.
+
+## Shared buttons and icons
+
+Import `ButtonDirective` in components that render action links or buttons:
+
+```html
+<a appButton href="#contact">Order via WhatsApp <app-icon name="whatsapp" /></a>
+<a appButton="outline" href="#contact">Get Directions <app-icon name="map-pin" /></a>
+<button appButton="icon" type="button" aria-label="Open navigation">
+  <app-icon name="menu" />
+</button>
+```
+
+Use `buttonSize="compact"` for smaller text actions. Keep layout-specific widths
+and spacing in the consuming component. Shared styling is loaded once from
+`shared/directives/button/_button.scss` through the global stylesheet.
+Use native `disabled` on buttons and specify their `type`. Links retain native
+navigation semantics; do not use a link for an action that needs disabling.
+
+Import `Icon` from `shared/components/icon/icon`. Supported names are `whatsapp`,
+`map-pin`, `moon`, `sun`, `menu`, `close`, and `delivery`. Icons inherit text colour;
+set `--icon-size` in the consuming stylesheet to change their size. They are always
+decorative: provide visible text or a translated accessible label on the parent.
+No icon library or external SVG requests are required.

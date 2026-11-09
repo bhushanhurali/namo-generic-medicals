@@ -14,11 +14,12 @@ describe('App', () => {
     expect(app).toBeTruthy();
   });
 
-  it('renders heading-only sections for every navigation destination', async () => {
+  it('renders an accessible section for every navigation destination', async () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent?.trim()).toBe('Home');
+    expect(compiled.querySelectorAll('h1').length).toBe(1);
+    expect(compiled.querySelector('h1')?.textContent).toContain('Quality Medicines.');
     const links = [...compiled.querySelectorAll<HTMLAnchorElement>('nav a')];
     expect(links.map((link) => link.hash)).toEqual([
       '#home',
@@ -32,10 +33,12 @@ describe('App', () => {
       expect(sections.length).toBe(1);
       const section = sections[0];
       expect(section.tagName).toBe('SECTION');
-      expect(section.children.length).toBe(1);
       const heading = section.querySelector('h1, h2')!;
       expect(section.getAttribute('aria-labelledby')).toBe(heading.id);
-      expect(heading.textContent?.trim()).toBe(link.textContent?.trim());
+      if (link.hash !== '#home') {
+        expect(section.children.length).toBe(1);
+        expect(heading.textContent?.trim()).toBe(link.textContent?.trim());
+      }
     }
   });
 });

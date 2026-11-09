@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-IN" trgLang="kn">
   <file id="ngi18n" original="ng.template">
     <unit id="site.name">
@@ -107,6 +107,174 @@
       <segment>
         <source>Contact</source>
         <target>ಸಂಪರ್ಕ</target>
+      </segment>
+    </unit>
+    <unit id="home.eyebrow">
+      <segment>
+        <source>LOCAL CARE. EVERYDAY VALUE.</source>
+        <target>ಸ್ಥಳೀಯ ಆರೈಕೆ. ಪ್ರತಿದಿನದ ಮೌಲ್ಯ.</target>
+      </segment>
+    </unit>
+    <unit id="home.quality">
+      <segment>
+        <source>Quality Medicines.</source>
+        <target>ಗುಣಮಟ್ಟದ ಔಷಧಿಗಳು.</target>
+      </segment>
+    </unit>
+    <unit id="home.affordable">
+      <segment>
+        <source>Affordable Prices.</source>
+        <target>ಕೈಗೆಟುಕುವ ಬೆಲೆಗಳು.</target>
+      </segment>
+    </unit>
+    <unit id="home.better">
+      <segment>
+        <source>Better Care.</source>
+        <target>ಉತ್ತಮ ಆರೈಕೆ.</target>
+      </segment>
+    </unit>
+    <unit id="home.lead">
+      <segment>
+        <source>Your trusted neighborhood generic pharmacy in Hubli-Dharwad.</source>
+        <target>ಹುಬ್ಬಳ್ಳಿ–ಧಾರವಾಡದಲ್ಲಿ ನಿಮ್ಮ ವಿಶ್ವಾಸಾರ್ಹ ನೆರೆಹೊರೆಯ ಜೆನೆರಿಕ್ ಔಷಧಾಲಯ.</target>
+      </segment>
+    </unit>
+    <unit id="home.description">
+      <segment>
+        <source>Affordable medicines and convenient home delivery, with friendly service that puts your family first.</source>
+        <target>ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕೆ ಆದ್ಯತೆ ನೀಡುವ ಸ್ನೇಹಪರ ಸೇವೆಯೊಂದಿಗೆ ಕೈಗೆಟುಕುವ ಔಷಧಿಗಳು ಮತ್ತು ಅನುಕೂಲಕರ ಮನೆ ವಿತರಣೆ.</target>
+      </segment>
+    </unit>
+    <unit id="home.order">
+      <segment>
+        <source>Order via WhatsApp</source>
+        <target>ವಾಟ್ಸಾಪ್ ಮೂಲಕ ಆರ್ಡರ್ ಮಾಡಿ</target>
+      </segment>
+    </unit>
+    <unit id="home.directions">
+      <segment>
+        <source>Get Directions</source>
+        <target>ದಾರಿ ಪಡೆಯಿರಿ</target>
+      </segment>
+    </unit>
+    <unit id="home.note">
+      <segment>
+        <source>Medicine availability and delivery subject to confirmation.</source>
+        <target>ಔಷಧಿಗಳ ಲಭ್ಯತೆ ಮತ್ತು ವಿತರಣೆಯನ್ನು ದೃಢೀಕರಿಸಬೇಕು.</target>
+      </segment>
+    </unit>
+    <unit id="home.imageAlt">
+      <segment>
+        <source>Illustrative assortment of packaged medicines</source>
+        <target>ಪ್ಯಾಕ್ ಮಾಡಿದ ವಿವಿಧ ಔಷಧಿಗಳ ಪ್ರಾತಿನಿಧಿಕ ಚಿತ್ರ</target>
+      </segment>
+    </unit>
+    <unit id="home.imageLabel">
+      <segment>
+        <source>ILLUSTRATIVE PHARMACY IMAGE</source>
+        <target>ಔಷಧಾಲಯದ ಪ್ರಾತಿನಿಧಿಕ ಚಿತ್ರ</target>
+      </segment>
+    </unit>
+    <unit id="home.careTitle">
+      <segment>
+        <source>Better care, within reach.</source>
+        <target>ಉತ್ತಮ ಆರೈಕೆ, ನಿಮ್ಮ ಕೈಗೆಟುಕುವಂತೆ.</target>
+      </segment>
+    </unit>
+    <unit id="home.careSubtitle">
+      <segment>
+        <source>For your health. For your budget.</source>
+        <target>ನಿಮ್ಮ ಆರೋಗ್ಯಕ್ಕಾಗಿ. ನಿಮ್ಮ ಬಜೆಟ್‌ಗೆ ತಕ್ಕಂತೆ.</target>
+      </segment>
+    </unit>
+    <unit id="home.localPharmacy">
+      <segment>
+        <source>Your local pharmacy</source>
+        <target>ನಿಮ್ಮ ಸ್ಥಳೀಯ ಔಷಧಾಲಯ</target>
+      </segment>
+    </unit>
+    <unit id="home.benefitMedicines">
+      <segment>
+        <source>Affordable generic medicines</source>
+        <target>ಕೈಗೆಟುಕುವ ಜೆನೆರಿಕ್ ಔಷಧಿಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="home.benefitDelivery">
+      <segment>
+        <source>Home delivery available</source>
+        <target>ಮನೆ ವಿತರಣೆ ಲಭ್ಯವಿದೆ</target>
+      </segment>
+    </unit>
+    <unit id="home.benefitService">
+      <segment>
+        <source>Friendly local service</source>
+        <target>ಸ್ನೇಹಪರ ಸ್ಥಳೀಯ ಸೇವೆ</target>
+      </segment>
+    </unit>
+    <unit id="home.whyEyebrow">
+      <segment>
+        <source>A LITTLE MORE CARE</source>
+        <target>ಇನ್ನಷ್ಟು ಕಾಳಜಿ</target>
+      </segment>
+    </unit>
+    <unit id="home.whyTitle">
+      <segment>
+        <source>Good health shouldn’t stretch your budget.</source>
+        <target>ಉತ್ತಮ ಆರೋಗ್ಯ ನಿಮ್ಮ ಬಜೆಟ್‌ಗೆ ಹೊರೆಯಾಗಬಾರದು.</target>
+      </segment>
+    </unit>
+    <unit id="home.whyDescription">
+      <segment>
+        <source>Everyday essentials. Thoughtful service. A pharmacy you can feel comfortable visiting.</source>
+        <target>ದೈನಂದಿನ ಅಗತ್ಯಗಳು. ಕಾಳಜಿಯ ಸೇವೆ. ನೀವು ನೆಮ್ಮದಿಯಿಂದ ಭೇಟಿ ನೀಡಬಹುದಾದ ಔಷಧಾಲಯ.</target>
+      </segment>
+    </unit>
+    <unit id="home.medicineTitle">
+      <segment>
+        <source>Affordable medicines</source>
+        <target>ಕೈಗೆಟುಕುವ ಔಷಧಿಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="home.medicineDescription">
+      <segment>
+        <source>Generic medicines at budget-friendly prices, with appropriate options confirmed by your pharmacist.</source>
+        <target>ನಿಮ್ಮ ಔಷಧಗಾರರು ದೃಢೀಕರಿಸಿದ ಸೂಕ್ತ ಆಯ್ಕೆಗಳೊಂದಿಗೆ ಬಜೆಟ್‌ಗೆ ತಕ್ಕ ಬೆಲೆಯಲ್ಲಿ ಜೆನೆರಿಕ್ ಔಷಧಿಗಳು.</target>
+      </segment>
+    </unit>
+    <unit id="home.valueTitle">
+      <segment>
+        <source>More value, every visit</source>
+        <target>ಪ್ರತಿ ಭೇಟಿಯಲ್ಲೂ ಹೆಚ್ಚಿನ ಮೌಲ್ಯ</target>
+      </segment>
+    </unit>
+    <unit id="home.valueDescription">
+      <segment>
+        <source>Ask us about current prices and savings on selected medicines compared with relevant branded alternatives.</source>
+        <target>ಆಯ್ದ ಔಷಧಿಗಳ ಪ್ರಸ್ತುತ ಬೆಲೆಗಳು ಮತ್ತು ಸಂಬಂಧಿತ ಬ್ರಾಂಡೆಡ್ ಪರ್ಯಾಯಗಳಿಗೆ ಹೋಲಿಸಿದಾಗ ಉಳಿತಾಯದ ಬಗ್ಗೆ ನಮ್ಮನ್ನು ಕೇಳಿ.</target>
+      </segment>
+    </unit>
+    <unit id="home.deliveryTitle">
+      <segment>
+        <source>Care, delivered</source>
+        <target>ಆರೈಕೆ, ನಿಮ್ಮ ಮನೆ ಬಾಗಿಲಿಗೆ</target>
+      </segment>
+    </unit>
+    <unit id="home.deliveryDescription">
+      <segment>
+        <source>Home delivery to eligible nearby areas. Call to confirm availability, delivery charges and timing.</source>
+        <target>ಅರ್ಹ ಹತ್ತಿರದ ಪ್ರದೇಶಗಳಿಗೆ ಮನೆ ವಿತರಣೆ. ಲಭ್ಯತೆ, ವಿತರಣಾ ಶುಲ್ಕ ಮತ್ತು ಸಮಯವನ್ನು ದೃಢೀಕರಿಸಲು ಕರೆ ಮಾಡಿ.</target>
+      </segment>
+    </unit>
+    <unit id="home.messageTitle">
+      <segment>
+        <source>Just a message away</source>
+        <target>ಒಂದು ಸಂದೇಶದಷ್ಟು ಹತ್ತಿರ</target>
+      </segment>
+    </unit>
+    <unit id="home.messageDescription">
+      <segment>
+        <source>Check medicine availability, pricing and local delivery with a simple WhatsApp enquiry.</source>
+        <target>ಸರಳ ವಾಟ್ಸಾಪ್ ವಿಚಾರಣೆಯ ಮೂಲಕ ಔಷಧಿಗಳ ಲಭ್ಯತೆ, ಬೆಲೆ ಮತ್ತು ಸ್ಥಳೀಯ ವಿತರಣೆಯ ಬಗ್ಗೆ ತಿಳಿಯಿರಿ.</target>
       </segment>
     </unit>
   </file>
