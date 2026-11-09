@@ -253,3 +253,16 @@ columns, medicine notice, copyright, and service-area layout. Footer copy lives 
 `src/app/content/footer-content.ts` with Kannada translations. The map and WhatsApp
 links lead to Contact so visitors can choose the appropriate pharmacy. Shared icons
 and theme variables keep it consistent with the other sections.
+
+## Licence
+
+The original application code and technical documentation are available under the
+[MIT licence](LICENSE), copyright © 2026 Bhushan Hurali. You may reuse, modify, and
+redistribute the software, including commercially, while retaining the licence's
+copyright and permission notice.
+
+Business branding, business-specific marketing copy, and photographs are outside
+this MIT grant. Third-party material retains its own terms. See
+[branding and image rights](ASSET_NOTICE.md) for sample image sources and guidance
+for adding actual store photographs. Reusing the code does not grant permission
+to represent Namo Generic Medicals or its partner pharmacies.
