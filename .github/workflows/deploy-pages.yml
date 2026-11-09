@@ -1,0 +1,110 @@
+name: Deploy to GitHub Pages
+run-name: Release ${{ inputs.version }} to GitHub Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Existing version tag to publish (for example, v1.0.0)'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages-release
+  cancel-in-progress: false
+
+jobs:
+  build:
+    # Run workflow from main; the input selects the exact release source below.
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - name: Checkout release tooling and all tags
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Validate tag and checkout its exact commit
+        id: release
+        shell: bash
+        env:
+          RELEASE_TAG: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          if [[ ! "$RELEASE_TAG" =~ ^v(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$ ]]; then
+            echo "::error::Enter a stable version tag such as v1.0.0."
+            exit 1
+          fi
+          if ! git show-ref --verify --quiet "refs/tags/$RELEASE_TAG"; then
+            echo "::error::The version tag does not exist on GitHub. Push the tag first."
+            exit 1
+          fi
+          release_commit="$(git rev-parse --verify "refs/tags/$RELEASE_TAG^{commit}")"
+          if ! git merge-base --is-ancestor "$release_commit" origin/main; then
+            echo "::error::The release tag must point to a commit in main's history."
+            exit 1
+          fi
+          git checkout --detach "$release_commit"
+          echo "commit=$release_commit" >> "$GITHUB_OUTPUT"
+          printf '## Release %s\n\nCommit: %s\n' "$RELEASE_TAG" "$release_commit" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check formatting
+        run: npm run format:check
+
+      - name: Run component tests
+        run: npm test -- --watch=false
+
+      - name: Test language detection
+        run: npm run test:language
+
+      - name: Read GitHub Pages configuration
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build English and Kannada for the Pages URL
+        env:
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: npm run build -- --base-href "${PAGES_BASE_PATH}/"
+
+      - name: Verify language pages and local assets
+        env:
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: node scripts/check-pages-build.mjs "${PAGES_BASE_PATH}/"
+
+      - name: Upload the complete bilingual site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist/namo-generic-medicals/browser
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish the validated release
+        id: deployment
+        uses: actions/deploy-pages@v4

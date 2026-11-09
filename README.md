@@ -26,12 +26,12 @@ GitHub Actions runs formatting, unit tests, and the production build for pushes 
 
 ## Current stage
 
-Shared responsive layout, light/dark theme switching, and English/Kannada localisation foundations. No deployment is configured yet.
+All page sections, themes, and English/Kannada versions are implemented. A manual GitHub Pages release workflow is prepared; the first deployment is pending.
 
 ## Next stages
 
-- Build individual page sections.
-- Add branch contact actions and configure static hosting.
+- Configure GitHub Pages and publish the first tagged release.
+- Replace illustrative images as actual store photographs become available.
 
 The application requires no backend. Business content and website sections will be added incrementally.
 
@@ -266,3 +266,75 @@ this MIT grant. Third-party material retains its own terms. See
 [branding and image rights](ASSET_NOTICE.md) for sample image sources and guidance
 for adding actual store photographs. Reusing the code does not grant permission
 to represent Namo Generic Medicals or its partner pharmacies.
+
+## Manual GitHub Pages releases
+
+CI continues to run on pushes to `main` and on pull requests. Deployment is separate:
+`.github/workflows/deploy-pages.yml` has **only** a manual `workflow_dispatch` trigger.
+Pushing code, pushing a tag, or creating a GitHub Release does not publish the site.
+
+### One-time setup
+
+1. Commit and push the deployment workflow and its build-check script to `main`.
+2. Open the repository's **Settings → Pages**. Under **Build and deployment**, choose
+   **GitHub Actions** as the source.
+3. If the `github-pages` environment has deployment branch restrictions, allow
+   `main`. Run the workflow from `main`; the version input selects the release tag.
+   Optional environment reviewers can add an approval before deployment.
+
+The workflow uses GitHub's built-in token; no personal access token is required.
+
+### Publish a version
+
+After finishing and pushing your intended changes to `main`, create and push an
+annotated tag on that commit. The first tag must include the deployment tooling:
+
+```sh
+git switch main
+git pull --ff-only
+git tag -a v1.0.0 -m "Release v1.0.0"
+git push origin v1.0.0
+```
+
+Then open **Actions → Deploy to GitHub Pages → Run workflow**:
+
+- Leave **Use workflow from** set to `main`.
+- Enter `v1.0.0` in **version**, then run the workflow.
+
+Only existing stable tags in the form `vMAJOR.MINOR.PATCH` are accepted. The tagged
+commit must be in `main`'s history. The workflow resolves the tag to its exact commit,
+checks it out, installs locked dependencies, reruns formatting/component/language
+checks, and builds both locales. It then verifies the output before uploading and
+deploying it. The run summary records the version and commit.
+
+The publishing job depends on the successful build job. A failed check or build
+leaves the current site unchanged. Concurrent release workflows do not cancel a
+release that is already running.
+
+Use a new tag such as `v1.0.1` or `v1.1.0` for later releases; do not move published
+tags. To roll back, manually run the workflow again with an earlier release tag that
+includes this deployment tooling. A separate GitHub Release/changelog is optional.
+
+### Site paths and custom domains
+
+The workflow reads the hosting base path from `actions/configure-pages` instead of
+hardcoding it in Angular configuration. For this repository, expected paths are:
+
+- English: https://bhushanhurali.github.io/namo-generic-medicals/
+- Kannada: https://bhushanhurali.github.io/namo-generic-medicals/kn/
+
+It uploads the entire `dist/namo-generic-medicals/browser/` directory. Relative
+images and the language switch work beneath the repository path. If a custom domain
+is configured in GitHub Pages later, the next manual release will use its base path.
+Domain/DNS configuration itself is separate from this workflow.
+
+To validate the repository-path build locally:
+
+```sh
+npm run build -- --base-href /namo-generic-medicals/
+node scripts/check-pages-build.mjs /namo-generic-medicals/
+```
+
+`npm run build` without extra arguments still builds for `/`, as used by the local
+preview. See [GitHub's custom workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
+for Pages configuration and permissions.
