@@ -3,15 +3,18 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "node scripts/dev.mjs",
+    "build": "ng build --localize",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "i18n:extract": "ng extract-i18n",
     "start:kn": "ng serve --configuration kn",
-    "build:kn": "ng build --configuration production,kn"
+    "build:kn": "ng build --configuration production,kn",
+    "start:en": "ng serve",
+    "preview": "npm run build && node scripts/preview.mjs",
+    "test:language": "node --test scripts/language-init.test.mjs"
   },
   "private": true,
   "packageManager": "npm@10.9.8",

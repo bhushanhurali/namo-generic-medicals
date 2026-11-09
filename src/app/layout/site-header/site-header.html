@@ -7,16 +7,7 @@
       <span class="brand-mark" aria-hidden="true">✚</span>
       <span>{{ content.name }}</span>
     </a>
-    <div class="actions">
-      <button
-        appButton="icon"
-        type="button"
-        (click)="theme.toggle()"
-        [attr.aria-label]="theme.theme() === 'light' ? content.darkTheme : content.lightTheme"
-        [attr.title]="theme.theme() === 'light' ? content.darkTheme : content.lightTheme"
-      >
-        <app-icon [name]="theme.theme() === 'light' ? 'moon' : 'sun'" />
-      </button>
+    <div class="menu-actions">
       <button
         appButton="icon"
         class="menu-toggle"
@@ -39,6 +30,27 @@
       <a href="#services" (click)="menuOpen.set(false)">{{ content.services }}</a>
       <a href="#gallery" (click)="menuOpen.set(false)">{{ content.gallery }}</a>
       <a href="#contact" (click)="menuOpen.set(false)">{{ content.contact }}</a>
+      <div class="preferences">
+        <button
+          appButton="icon"
+          type="button"
+          (click)="theme.toggle()"
+          [attr.aria-label]="theme.theme() === 'light' ? content.darkTheme : content.lightTheme"
+          [attr.title]="theme.theme() === 'light' ? content.darkTheme : content.lightTheme"
+        >
+          <app-icon [name]="theme.theme() === 'light' ? 'moon' : 'sun'" />
+        </button>
+        <a
+          appButton="icon"
+          [href]="language.switchUrl"
+          (click)="language.rememberChoice()"
+          [attr.hreflang]="language.targetLanguage"
+          [attr.aria-label]="language.isKannada ? content.switchEnglish : content.switchKannada"
+          [attr.title]="language.isKannada ? content.switchEnglish : content.switchKannada"
+        >
+          <span [attr.lang]="language.targetLanguage">{{ language.isKannada ? 'EN' : 'ಕ' }}</span>
+        </a>
+      </div>
     </nav>
   </div>
 </header>

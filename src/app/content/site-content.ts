@@ -15,6 +15,8 @@ export const SITE_CONTENT = {
   closeMenu: $localize`:Menu button label@@nav.close:Close navigation`,
   darkTheme: $localize`:Theme button action@@theme.dark:Switch to dark theme`,
   lightTheme: $localize`:Theme button action@@theme.light:Switch to light theme`,
+  switchEnglish: $localize`:Language link action@@language.english:Switch to English`,
+  switchKannada: $localize`:Language link action@@language.kannada:Switch to Kannada`,
   skipToContent: $localize`:Keyboard navigation link@@nav.skip:Skip to content`,
   backToTop: $localize`:Footer navigation link@@nav.top:Back to top`,
   rights: $localize`:Copyright notice@@footer.rights:All rights reserved.`,

@@ -31,7 +31,8 @@
               }
             ],
             "styles": ["src/styles.scss"],
-            "polyfills": ["@angular/localize/init"]
+            "polyfills": ["@angular/localize/init"],
+            "i18nMissingTranslation": "error"
           },
           "configurations": {
             "production": {
@@ -89,7 +90,10 @@
         }
       },
       "i18n": {
-        "sourceLocale": "en-IN",
+        "sourceLocale": {
+          "code": "en-IN",
+          "subPath": ""
+        },
         "locales": {
           "kn": {
             "translation": "src/locale/messages.kn.xlf",

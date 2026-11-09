@@ -17,4 +17,5 @@ jobs:
       - run: npm ci
       - run: npm run format:check
       - run: npm test -- --watch=false
+      - run: npm run test:language
       - run: npm run build

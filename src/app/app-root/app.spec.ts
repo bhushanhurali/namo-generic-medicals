@@ -20,7 +20,8 @@ describe('App', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelectorAll('h1').length).toBe(1);
     expect(compiled.querySelector('h1')?.textContent).toContain('Quality Medicines.');
-    const links = [...compiled.querySelectorAll<HTMLAnchorElement>('nav a')];
+    expect(compiled.querySelector('#about h2')?.textContent).toContain('Your health matters.');
+    const links = [...compiled.querySelectorAll<HTMLAnchorElement>('nav > a')];
     expect(links.map((link) => link.hash)).toEqual([
       '#home',
       '#about',
@@ -35,7 +36,7 @@ describe('App', () => {
       expect(section.tagName).toBe('SECTION');
       const heading = section.querySelector('h1, h2')!;
       expect(section.getAttribute('aria-labelledby')).toBe(heading.id);
-      if (link.hash !== '#home') {
+      if (link.hash !== '#home' && link.hash !== '#about') {
         expect(section.children.length).toBe(1);
         expect(heading.textContent?.trim()).toBe(link.textContent?.trim());
       }
