@@ -35,15 +35,6 @@ export const BRANCHES: readonly Branch[] = [
     mapsUrl: '',
   },
   {
-    id: 'gandhi-chowk',
-    partner: true,
-    name: 'Cure Generic Medicals',
-    area: 'Gandhi Chowk, Dharwad',
-    phone: '918892758875',
-    whatsapp: '918892758875',
-    mapsUrl: 'https://maps.app.goo.gl/fBEcme2aT4UX6sMc9',
-  },
-  {
     id: 'siddeshwar-park',
     partner: true,
     name: 'Cure Genericart Medicals',
@@ -51,5 +42,14 @@ export const BRANCHES: readonly Branch[] = [
     phone: '916360104894',
     whatsapp: '916360104894',
     mapsUrl: 'https://maps.app.goo.gl/bEpSi4Yqhar4Emke8',
+  },
+  {
+    id: 'gandhi-chowk',
+    partner: true,
+    name: 'Cure Generic Medicals',
+    area: 'Gandhi Chowk, Dharwad',
+    phone: '918892758875',
+    whatsapp: '918892758875',
+    mapsUrl: 'https://maps.app.goo.gl/fBEcme2aT4UX6sMc9',
   },
 ];
