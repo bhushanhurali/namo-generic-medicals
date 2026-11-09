@@ -48,7 +48,7 @@ is restored when the application starts. If storage is blocked, switching still 
 for the current visit. OS dark-mode preference does not override the default.
 
 The mobile navigation opens with the menu button and closes on Escape or a link
-selection. Home is the only navigation destination until more sections are built.
+selection. Navigation links to Home, About, Services, Gallery, and Contact. Each section currently contains its heading only.
 The layout includes a keyboard skip link and a shared footer.
 
 ## Localisation
@@ -107,3 +107,15 @@ Keep each component in its own named folder with separate `.ts`, `.html`, and
 services under `core/services`. Add dedicated `core/guards` and `shared/directives`
 folders when those types are introduced, rather than mixing them with components.
 Future page components belong in their respective feature folders.
+
+## Section layout
+
+Each page section has its own component folder under `src/app/features/`.
+Only headings are present at this stage; section content will be added individually.
+Shared section spacing is defined by `.page-section` in `src/styles.scss`.
+
+Navigation uses native fragment links (`#home`, `#about`, `#services`, `#gallery`,
+`#contact`). On desktop the header stays visible and anchor scrolling leaves room
+above section headings. At widths up to 64rem the header scrolls with the page,
+so the expanded mobile menu cannot cover a destination after navigation.
+Smooth scrolling is disabled when the visitor prefers reduced motion.

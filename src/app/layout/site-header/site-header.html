@@ -1,5 +1,5 @@
 <div class="topline">
-  {{ content.neighbourhood }} <span>{{ content.location }}</span>
+  {{ content.neighbourhood }} 
 </div>
 <header (keydown.escape)="menuOpen.set(false)">
   <div class="header-inner">
@@ -63,7 +63,11 @@
       [class.is-open]="menuOpen()"
       [attr.aria-label]="content.mainNavigation"
     >
-      <a href="#home" aria-current="page" (click)="menuOpen.set(false)">{{ content.home }}</a>
+      <a href="#home" (click)="menuOpen.set(false)">{{ content.home }}</a>
+      <a href="#about" (click)="menuOpen.set(false)">{{ content.about }}</a>
+      <a href="#services" (click)="menuOpen.set(false)">{{ content.services }}</a>
+      <a href="#gallery" (click)="menuOpen.set(false)">{{ content.gallery }}</a>
+      <a href="#contact" (click)="menuOpen.set(false)">{{ content.contact }}</a>
     </nav>
   </div>
 </header>

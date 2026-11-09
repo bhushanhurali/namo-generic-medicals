@@ -41,3 +41,39 @@ a {
   background: var(--color-primary);
   color: var(--color-on-primary);
 }
+
+// Native anchor navigation keeps URLs shareable and works without click handlers.
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block-start: 10rem;
+}
+
+.page-section {
+  min-height: 65svh;
+  padding: clamp(2rem, 6vw, 5rem) clamp(1rem, 4vw, 3rem);
+  margin-block: 2rem;
+  border: 1px solid var(--color-border);
+  border-block-start: 3px solid var(--color-primary);
+  border-radius: 1rem;
+  background: var(--color-surface);
+}
+
+.page-section h1,
+.page-section h2 {
+  margin: 0;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 64rem) {
+  html {
+    scroll-padding-block-start: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

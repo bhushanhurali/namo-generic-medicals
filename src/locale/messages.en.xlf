@@ -48,9 +48,45 @@
         <source>Home</source>
       </segment>
     </unit>
-    <unit id="nav.main">
+    <unit id="nav.about">
       <notes>
         <note category="location">src/app/content/site-content.ts:9</note>
+        <note category="description">Section heading and navigation link</note>
+      </notes>
+      <segment>
+        <source>About</source>
+      </segment>
+    </unit>
+    <unit id="nav.services">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:10</note>
+        <note category="description">Section heading and navigation link</note>
+      </notes>
+      <segment>
+        <source>Services</source>
+      </segment>
+    </unit>
+    <unit id="nav.gallery">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:11</note>
+        <note category="description">Section heading and navigation link</note>
+      </notes>
+      <segment>
+        <source>Gallery</source>
+      </segment>
+    </unit>
+    <unit id="nav.contact">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:12</note>
+        <note category="description">Section heading and navigation link</note>
+      </notes>
+      <segment>
+        <source>Contact</source>
+      </segment>
+    </unit>
+    <unit id="nav.main">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:13</note>
         <note category="description">Accessible navigation label</note>
       </notes>
       <segment>
@@ -59,7 +95,7 @@
     </unit>
     <unit id="nav.open">
       <notes>
-        <note category="location">src/app/content/site-content.ts:10</note>
+        <note category="location">src/app/content/site-content.ts:14</note>
         <note category="description">Menu button label</note>
       </notes>
       <segment>
@@ -68,7 +104,7 @@
     </unit>
     <unit id="nav.close">
       <notes>
-        <note category="location">src/app/content/site-content.ts:11</note>
+        <note category="location">src/app/content/site-content.ts:15</note>
         <note category="description">Menu button label</note>
       </notes>
       <segment>
@@ -77,7 +113,7 @@
     </unit>
     <unit id="theme.dark">
       <notes>
-        <note category="location">src/app/content/site-content.ts:12</note>
+        <note category="location">src/app/content/site-content.ts:16</note>
         <note category="description">Theme button action</note>
       </notes>
       <segment>
@@ -86,7 +122,7 @@
     </unit>
     <unit id="theme.light">
       <notes>
-        <note category="location">src/app/content/site-content.ts:13</note>
+        <note category="location">src/app/content/site-content.ts:17</note>
         <note category="description">Theme button action</note>
       </notes>
       <segment>
@@ -95,7 +131,7 @@
     </unit>
     <unit id="nav.skip">
       <notes>
-        <note category="location">src/app/content/site-content.ts:14</note>
+        <note category="location">src/app/content/site-content.ts:18</note>
         <note category="description">Keyboard navigation link</note>
       </notes>
       <segment>
@@ -104,7 +140,7 @@
     </unit>
     <unit id="nav.top">
       <notes>
-        <note category="location">src/app/content/site-content.ts:15</note>
+        <note category="location">src/app/content/site-content.ts:19</note>
         <note category="description">Footer navigation link</note>
       </notes>
       <segment>
@@ -113,7 +149,7 @@
     </unit>
     <unit id="footer.rights">
       <notes>
-        <note category="location">src/app/content/site-content.ts:16</note>
+        <note category="location">src/app/content/site-content.ts:20</note>
         <note category="description">Copyright notice</note>
       </notes>
       <segment>
