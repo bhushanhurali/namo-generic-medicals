@@ -1,10 +1,32 @@
 <footer>
   <div class="footer-inner">
-    <div>
-      <strong>{{ content.name }}</strong>
-      <p>{{ content.location }}</p>
+    <div class="footer-grid">
+      <div class="identity">
+        <a class="brand" href="#home" [attr.aria-label]="content.name">
+          <span class="brand-mark" aria-hidden="true">✚</span>
+          <span
+            >{{ footer.brandName }}<small>{{ footer.brandDescriptor }}</small></span
+          >
+        </a>
+        <p>{{ footer.value }}<br />{{ footer.neighbourhood }}</p>
+      </div>
+      <nav aria-labelledby="footer-explore-heading">
+        <h2 id="footer-explore-heading">{{ footer.explore }}</h2>
+        <a href="#about">{{ footer.about }}</a>
+        <a href="#services">{{ footer.services }}</a>
+        <a href="#gallery">{{ content.gallery }}</a>
+      </nav>
+      <nav aria-labelledby="footer-connect-heading">
+        <h2 id="footer-connect-heading">{{ footer.connect }}</h2>
+        <a href="#contact">{{ footer.nearest }}</a>
+        <a href="#contact">{{ footer.locations }} <app-icon name="map-pin" /></a>
+        <a href="#contact">{{ footer.whatsapp }} <app-icon name="whatsapp" /></a>
+      </nav>
     </div>
-    <a href="#home">{{ content.backToTop }} <span aria-hidden="true">↑</span></a>
+    <p class="disclaimer">{{ footer.disclaimer }}</p>
+    <div class="footer-bottom">
+      <span>© {{ year }} {{ content.name }}. {{ content.rights }}</span>
+      <span>{{ content.location }}</span>
+    </div>
   </div>
-  <p class="copyright">© {{ year }} {{ content.name }}. {{ content.rights }}</p>
 </footer>

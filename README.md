@@ -245,3 +245,11 @@ provides a stable manual row, and the icon-only Pause/Play control stops or resu
 get manually scrollable rows without automatic movement. The native modal viewer
 supports previous/next wrapping, arrow keys, Escape, backdrop closing, captions,
 and returning focus to the original photo. Page scrolling is locked only while open.
+
+## Footer
+
+The footer follows the original pharmacy site's brand, Explore and Let's connect
+columns, medicine notice, copyright, and service-area layout. Footer copy lives in
+`src/app/content/footer-content.ts` with Kannada translations. The map and WhatsApp
+links lead to Contact so visitors can choose the appropriate pharmacy. Shared icons
+and theme variables keep it consistent with the other sections.

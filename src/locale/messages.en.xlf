@@ -601,6 +601,126 @@
         <source>Siddeshwar Park, Hubli</source>
       </segment>
     </unit>
+    <unit id="footer.brandName">
+      <notes>
+        <note category="location">src/app/content/footer-content.ts:2</note>
+        <note category="description">brandName</note>
+        <note category="meaning">Footer</note>
+      </notes>
+      <segment>
+        <source>NAMO</source>
+      </segment>
+    </unit>
+    <unit id="footer.brandDescriptor">
+      <notes>
+        <note category="location">src/app/content/footer-content.ts:3</note>
+        <note category="description">brandDescriptor</note>
+        <note category="meaning">Footer</note>
+      </notes>
+      <segment>
+        <source>GENERIC MEDICALS</source>
+      </segment>
+    </unit>
+    <unit id="footer.value">
+      <notes>
+        <note category="location">src/app/content/footer-content.ts:4</note>
+        <note category="description">value</note>
+        <note category="meaning">Footer</note>
+      </notes>
+      <segment>
+        <source>Affordable medicines. Accessible care.</source>
+      </segment>
+    </unit>
+    <unit id="footer.neighbourhood">
+      <notes>
+        <note category="location">src/app/content/footer-content.ts:5</note>
+        <note category="description">neighbourhood</note>
+        <note category="meaning">Footer</note>
+      </notes>
+      <segment>
+        <source>Your neighborhood pharmacy in Hubli-Dharwad.</source>
+      </segment>
+    </unit>
+    <unit id="footer.explore">
+      <notes>
+        <note category="location">src/app/content/footer-content.ts:6</note>
+        <note category="description">explore</note>
+        <note category="meaning">Footer</note>
+      </notes>
+      <segment>
+        <source>Explore</source>
+      </segment>
+    </unit>
+    <unit id="footer.about">
+      <notes>
+        <note category="location">src/app/content/footer-content.ts:7</note>
+        <note category="description">about</note>
+        <note category="meaning">Footer</note>
+      </notes>
+      <segment>
+        <source>About us</source>
+      </segment>
+    </unit>
+    <unit id="footer.services">
+      <notes>
+        <note category="location">src/app/content/footer-content.ts:8</note>
+        <note category="description">services</note>
+        <note category="meaning">Footer</note>
+      </notes>
+      <segment>
+        <source>Our services</source>
+      </segment>
+    </unit>
+    <unit id="footer.connect">
+      <notes>
+        <note category="location">src/app/content/footer-content.ts:9</note>
+        <note category="description">connect</note>
+        <note category="meaning">Footer</note>
+      </notes>
+      <segment>
+        <source>Let’s connect</source>
+      </segment>
+    </unit>
+    <unit id="footer.nearest">
+      <notes>
+        <note category="location">src/app/content/footer-content.ts:10</note>
+        <note category="description">nearest</note>
+        <note category="meaning">Footer</note>
+      </notes>
+      <segment>
+        <source>Find your nearest branch</source>
+      </segment>
+    </unit>
+    <unit id="footer.locations">
+      <notes>
+        <note category="location">src/app/content/footer-content.ts:11</note>
+        <note category="description">locations</note>
+        <note category="meaning">Footer</note>
+      </notes>
+      <segment>
+        <source>Branch locations</source>
+      </segment>
+    </unit>
+    <unit id="footer.whatsapp">
+      <notes>
+        <note category="location">src/app/content/footer-content.ts:12</note>
+        <note category="description">whatsapp</note>
+        <note category="meaning">Footer</note>
+      </notes>
+      <segment>
+        <source>WhatsApp</source>
+      </segment>
+    </unit>
+    <unit id="footer.disclaimer">
+      <notes>
+        <note category="location">src/app/content/footer-content.ts:13</note>
+        <note category="description">disclaimer</note>
+        <note category="meaning">Footer</note>
+      </notes>
+      <segment>
+        <source>Medicine availability, prices, discounts, and delivery services are subject to confirmation. Prescription medicines are dispensed only against valid prescriptions in accordance with applicable regulations.</source>
+      </segment>
+    </unit>
     <unit id="gallery.actualIntro">
       <notes>
         <note category="location">src/app/content/gallery-content.ts:2</note>

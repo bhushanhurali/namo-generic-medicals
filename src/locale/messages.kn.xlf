@@ -961,5 +961,77 @@
         <target>ನಮ್ಮ ಔಷಧಾಲಯಗಳು ಮತ್ತು ದೈನಂದಿನ ಆರೈಕೆಯ ಒಂದು ನೋಟ.</target>
       </segment>
     </unit>
+    <unit id="footer.brandName">
+      <segment>
+        <source>NAMO</source>
+        <target>ನಮೋ</target>
+      </segment>
+    </unit>
+    <unit id="footer.brandDescriptor">
+      <segment>
+        <source>GENERIC MEDICALS</source>
+        <target>ಜೆನೆರಿಕ್ ಮೆಡಿಕಲ್ಸ್</target>
+      </segment>
+    </unit>
+    <unit id="footer.value">
+      <segment>
+        <source>Affordable medicines. Accessible care.</source>
+        <target>ಕೈಗೆಟುಕುವ ಔಷಧಿಗಳು. ಸುಲಭವಾಗಿ ಲಭ್ಯವಾಗುವ ಆರೈಕೆ.</target>
+      </segment>
+    </unit>
+    <unit id="footer.neighbourhood">
+      <segment>
+        <source>Your neighborhood pharmacy in Hubli-Dharwad.</source>
+        <target>ಹುಬ್ಬಳ್ಳಿ–ಧಾರವಾಡದಲ್ಲಿ ನಿಮ್ಮ ನೆರೆಹೊರೆಯ ಔಷಧಾಲಯ.</target>
+      </segment>
+    </unit>
+    <unit id="footer.explore">
+      <segment>
+        <source>Explore</source>
+        <target>ಅನ್ವೇಷಿಸಿ</target>
+      </segment>
+    </unit>
+    <unit id="footer.about">
+      <segment>
+        <source>About us</source>
+        <target>ನಮ್ಮ ಬಗ್ಗೆ</target>
+      </segment>
+    </unit>
+    <unit id="footer.services">
+      <segment>
+        <source>Our services</source>
+        <target>ನಮ್ಮ ಸೇವೆಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="footer.connect">
+      <segment>
+        <source>Let’s connect</source>
+        <target>ಸಂಪರ್ಕಿಸೋಣ</target>
+      </segment>
+    </unit>
+    <unit id="footer.nearest">
+      <segment>
+        <source>Find your nearest branch</source>
+        <target>ನಿಮ್ಮ ಹತ್ತಿರದ ಶಾಖೆಯನ್ನು ಹುಡುಕಿ</target>
+      </segment>
+    </unit>
+    <unit id="footer.locations">
+      <segment>
+        <source>Branch locations</source>
+        <target>ಶಾಖೆಗಳ ಸ್ಥಳಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="footer.whatsapp">
+      <segment>
+        <source>WhatsApp</source>
+        <target>ವಾಟ್ಸಾಪ್</target>
+      </segment>
+    </unit>
+    <unit id="footer.disclaimer">
+      <segment>
+        <source>Medicine availability, prices, discounts, and delivery services are subject to confirmation. Prescription medicines are dispensed only against valid prescriptions in accordance with applicable regulations.</source>
+        <target>ಔಷಧಿಗಳ ಲಭ್ಯತೆ, ಬೆಲೆಗಳು, ರಿಯಾಯಿತಿಗಳು ಮತ್ತು ವಿತರಣಾ ಸೇವೆಗಳು ದೃಢೀಕರಣಕ್ಕೆ ಒಳಪಟ್ಟಿರುತ್ತವೆ. ವೈದ್ಯರ ಚೀಟಿ ಅಗತ್ಯವಿರುವ ಔಷಧಿಗಳನ್ನು ಅನ್ವಯವಾಗುವ ನಿಯಮಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ಮಾನ್ಯ ಚೀಟಿಯ ಆಧಾರದ ಮೇಲೆ ಮಾತ್ರ ವಿತರಿಸಲಾಗುತ್ತದೆ.</target>
+      </segment>
+    </unit>
   </file>
 </xliff>
