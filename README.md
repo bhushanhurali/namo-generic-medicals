@@ -48,7 +48,7 @@ is restored when the application starts. If storage is blocked, switching still 
 for the current visit. OS dark-mode preference does not override the default.
 
 The mobile navigation opens with the menu button and closes on Escape or a link
-selection. Navigation links to Home, About, Services, Gallery, and Contact. Home, About, and Services contain their original website content. The remaining sections contain headings only.
+selection. Navigation links to Home, About, Services, Gallery, and Contact. Home, About, Services, and Contact are implemented. Gallery remains a heading-only placeholder until actual store photos are available.
 The layout includes a keyboard skip link and a shared footer.
 
 ## Localisation
@@ -116,7 +116,7 @@ Future page components belong in their respective feature folders.
 ## Section layout
 
 Each page section has its own component folder under `src/app/features/`.
-Home, About, and Services are implemented; Gallery and Contact remain heading-only placeholders.
+Home, About, Services, and Contact are implemented; Gallery awaits actual store photographs.
 Shared section spacing is defined by `.page-section` in `src/styles.scss`.
 
 Navigation uses native fragment links (`#home`, `#about`, `#services`, `#gallery`,
@@ -132,8 +132,7 @@ It uses the shared theme colours and adapts to narrow screens and Kannada text.
 The illustrative pharmacy image is hosted by Unsplash, as on the original website.
 
 Both hero actions currently navigate to Contact, matching the original site's
-branch-selection flow. Branch selection, WhatsApp enquiries, and directions will
-be connected when Contact is implemented. No messages are sent by these links.
+branch-selection flow. Contact now provides branch links and a WhatsApp enquiry form. No messages are sent automatically.
 
 ## Shared buttons and icons
 
@@ -165,8 +164,7 @@ About recreates the original image-and-text layout, community caption, Genericar
 partner information, and generic-medicine note. Copy and image descriptions live in
 `src/app/content/about-content.ts` with matching Kannada translations. Official
 Genericart links open in a separate tab; the local pharmacy link goes to Contact.
-The illustrative image uses the original Unsplash URL. Services, Gallery, and
-Contact remain placeholders for subsequent steps.
+The illustrative image uses the original Unsplash URL. Gallery awaits actual store photographs.
 
 ## Header and anchor spacing
 
@@ -184,6 +182,31 @@ Kannada translations. The layout adapts from three columns to one on smaller
 screens and uses shared icons and button styling. Panel colours are centralised in
 `src/styles/_theme.scss` and derive from the primary colour.
 
-The WhatsApp action navigates to Contact, where branch selection and enquiry links
-will be connected later. Gallery and Contact remain heading-only placeholders.
+The WhatsApp action navigates to Contact, where visitors can choose a branch and prepare an enquiry. Gallery remains a heading-only placeholder.
 Additional shared icons: `medical-cross`, `prescription`, `search`, and `heart`.
+
+## Contact and branch details
+
+Edit `src/app/data/branches.ts` for the five pharmacies' canonical details. Translated
+names, areas, form labels, and enquiry text live in `src/app/content/contact-content.ts`.
+Reusable branch cards live in the Contact feature's `branch-card/` folder. Call links
+use the branch's phone number; WhatsApp links use its WhatsApp number. Google Maps
+links are shown only when supplied; no map is guessed for missing pins.
+
+The reactive enquiry form requires a selected pharmacy, a nonblank name (up to 100
+characters), a phone number with 7–15 digits, and a nonblank message (up to 1000
+characters). It opens an encoded WhatsApp draft for that pharmacy. The visitor still
+reviews and sends it in WhatsApp. No backend, website storage, or automatic sending
+is used. Validation messages and drafts follow the selected language.
+
+Home and Services actions already link to Contact, where visitors can now choose a
+pharmacy from the cards or enquiry form. Gallery remains unchanged pending photos.
+
+## Custom form picker
+
+`shared/components/select/` provides a grouped, select-only combobox integrated with
+Angular reactive forms through `ControlValueAccessor`. It keeps the pharmacy list
+location-only, styles selected items with the primary colour, and uses rounded,
+scrollable menus in both themes. It supports keyboard navigation, type-ahead,
+Escape/Tab dismissal, outside-click dismissal, disabled controls, and form resets.
+Its visible label and validation descriptions are supplied by the consuming form.

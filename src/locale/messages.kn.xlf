@@ -553,5 +553,257 @@
         <target>ಲಭ್ಯತೆ ಮತ್ತು ಅನ್ವಯವಾಗುವ ಅವಶ್ಯಕತೆಗಳಿಗೆ ಒಳಪಟ್ಟು, ಅಂಗಡಿಯಿಂದ ಸಂಗ್ರಹಣೆ ಅಥವಾ ಮನೆ ವಿತರಣೆಯನ್ನು ವ್ಯವಸ್ಥೆಗೊಳಿಸಿ.</target>
       </segment>
     </unit>
+    <unit id="contact.eyebrow">
+      <segment>
+        <source>WE’RE CLOSE BY</source>
+        <target>ನಾವು ಹತ್ತಿರದಲ್ಲೇ ಇದ್ದೇವೆ</target>
+      </segment>
+    </unit>
+    <unit id="contact.pharmacies">
+      <segment>
+        <source>Your neighborhood pharmacies.</source>
+        <target>ನಿಮ್ಮ ನೆರೆಹೊರೆಯ ಔಷಧಾಲಯಗಳು.</target>
+      </segment>
+    </unit>
+    <unit id="contact.location">
+      <segment>
+        <source>Across Hubli-Dharwad.</source>
+        <target>ಹುಬ್ಬಳ್ಳಿ–ಧಾರವಾಡದಾದ್ಯಂತ.</target>
+      </segment>
+    </unit>
+    <unit id="contact.intro">
+      <segment>
+        <source>Contact a Namo branch or one of our partner pharmacies for medicine enquiries, pickup and local delivery.</source>
+        <target>ಔಷಧಿಗಳ ವಿಚಾರಣೆ, ಅಂಗಡಿ ಸಂಗ್ರಹಣೆ ಮತ್ತು ಸ್ಥಳೀಯ ವಿತರಣೆಗಾಗಿ ನಮೋ ಶಾಖೆಯನ್ನು ಅಥವಾ ನಮ್ಮ ಪಾಲುದಾರ ಔಷಧಾಲಯವನ್ನು ಸಂಪರ್ಕಿಸಿ.</target>
+      </segment>
+    </unit>
+    <unit id="contact.branchesTitle">
+      <segment>
+        <source>Namo Generic Medicals branches</source>
+        <target>ನಮೋ ಜೆನೆರಿಕ್ ಮೆಡಿಕಲ್ಸ್ ಶಾಖೆಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="contact.partnerEyebrow">
+      <segment>
+        <source>OUR LOCAL PARTNERS</source>
+        <target>ನಮ್ಮ ಸ್ಥಳೀಯ ಪಾಲುದಾರರು</target>
+      </segment>
+    </unit>
+    <unit id="contact.partnersTitle">
+      <segment>
+        <source>Partner pharmacies</source>
+        <target>ಪಾಲುದಾರ ಔಷಧಾಲಯಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="contact.partnerIntro">
+      <segment>
+        <source>These independently owned pharmacies are part of our local partner network. Contact them directly using their own WhatsApp and map links below.</source>
+        <target>ಈ ಸ್ವತಂತ್ರ ಮಾಲೀಕತ್ವದ ಔಷಧಾಲಯಗಳು ನಮ್ಮ ಸ್ಥಳೀಯ ಪಾಲುದಾರ ಜಾಲದ ಭಾಗವಾಗಿವೆ. ಕೆಳಗಿನ ಅವರ ವಾಟ್ಸಾಪ್ ಮತ್ತು ನಕ್ಷೆ ಲಿಂಕ್‌ಗಳ ಮೂಲಕ ನೇರವಾಗಿ ಸಂಪರ್ಕಿಸಿ.</target>
+      </segment>
+    </unit>
+    <unit id="contact.branchBadge">
+      <segment>
+        <source>Namo branch</source>
+        <target>ನಮೋ ಶಾಖೆ</target>
+      </segment>
+    </unit>
+    <unit id="contact.partnerBadge">
+      <segment>
+        <source>Partner pharmacy</source>
+        <target>ಪಾಲುದಾರ ಔಷಧಾಲಯ</target>
+      </segment>
+    </unit>
+    <unit id="contact.call">
+      <segment>
+        <source>Call</source>
+        <target>ಕರೆ ಮಾಡಿ</target>
+      </segment>
+    </unit>
+    <unit id="contact.whatsapp">
+      <segment>
+        <source>WhatsApp</source>
+        <target>ವಾಟ್ಸಾಪ್</target>
+      </segment>
+    </unit>
+    <unit id="contact.maps">
+      <segment>
+        <source>Google Maps</source>
+        <target>ಗೂಗಲ್ ನಕ್ಷೆ</target>
+      </segment>
+    </unit>
+    <unit id="contact.mapPending">
+      <segment>
+        <source>Map pin coming soon</source>
+        <target>ನಕ್ಷೆಯ ಸ್ಥಳ ಗುರುತು ಶೀಘ್ರದಲ್ಲೇ</target>
+      </segment>
+    </unit>
+    <unit id="contact.greeting">
+      <segment>
+        <source>Hello, I would like to enquire about medicine availability, pricing, pickup or delivery.</source>
+        <target>ನಮಸ್ಕಾರ, ಔಷಧಿಗಳ ಲಭ್ಯತೆ, ಬೆಲೆ, ಅಂಗಡಿ ಸಂಗ್ರಹಣೆ ಅಥವಾ ವಿತರಣೆಯ ಬಗ್ಗೆ ವಿಚಾರಿಸಲು ಬಯಸುತ್ತೇನೆ.</target>
+      </segment>
+    </unit>
+    <unit id="contact.formEyebrow">
+      <segment>
+        <source>SAY HELLO</source>
+        <target>ನಮಸ್ಕಾರ ಹೇಳಿ</target>
+      </segment>
+    </unit>
+    <unit id="contact.formTitle">
+      <segment>
+        <source>Enquire with a pharmacy</source>
+        <target>ಔಷಧಾಲಯದಲ್ಲಿ ವಿಚಾರಿಸಿ</target>
+      </segment>
+    </unit>
+    <unit id="contact.formIntro">
+      <segment>
+        <source>Choose a pharmacy and prepare your enquiry for WhatsApp.</source>
+        <target>ಔಷಧಾಲಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ವಾಟ್ಸಾಪ್‌ಗಾಗಿ ನಿಮ್ಮ ವಿಚಾರಣೆಯನ್ನು ಸಿದ್ಧಪಡಿಸಿ.</target>
+      </segment>
+    </unit>
+    <unit id="contact.nameLabel">
+      <segment>
+        <source>Patient / full name</source>
+        <target>ರೋಗಿಯ / ಪೂರ್ಣ ಹೆಸರು</target>
+      </segment>
+    </unit>
+    <unit id="contact.namePlaceholder">
+      <segment>
+        <source>Patient’s full name</source>
+        <target>ರೋಗಿಯ ಪೂರ್ಣ ಹೆಸರು</target>
+      </segment>
+    </unit>
+    <unit id="contact.phoneLabel">
+      <segment>
+        <source>Patient phone number</source>
+        <target>ರೋಗಿಯ ದೂರವಾಣಿ ಸಂಖ್ಯೆ</target>
+      </segment>
+    </unit>
+    <unit id="contact.phonePlaceholder">
+      <segment>
+        <source>Patient’s phone number</source>
+        <target>ರೋಗಿಯ ದೂರವಾಣಿ ಸಂಖ್ಯೆ</target>
+      </segment>
+    </unit>
+    <unit id="contact.branchLabel">
+      <segment>
+        <source>Choose a branch or partner pharmacy</source>
+        <target>ಶಾಖೆ ಅಥವಾ ಪಾಲುದಾರ ಔಷಧಾಲಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ</target>
+      </segment>
+    </unit>
+    <unit id="contact.branchPlaceholder">
+      <segment>
+        <source>Select a pharmacy</source>
+        <target>ಔಷಧಾಲಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ</target>
+      </segment>
+    </unit>
+    <unit id="contact.messageLabel">
+      <segment>
+        <source>Message</source>
+        <target>ಸಂದೇಶ</target>
+      </segment>
+    </unit>
+    <unit id="contact.messagePlaceholder">
+      <segment>
+        <source>Ask about availability, pickup or delivery…</source>
+        <target>ಲಭ್ಯತೆ, ಅಂಗಡಿ ಸಂಗ್ರಹಣೆ ಅಥವಾ ವಿತರಣೆಯ ಬಗ್ಗೆ ಕೇಳಿ…</target>
+      </segment>
+    </unit>
+    <unit id="contact.privacy">
+      <segment>
+        <source>This form opens WhatsApp with your enquiry addressed to the selected branch. Review it and tap Send in WhatsApp. Your enquiry is not stored on this website. Please don’t include prescriptions, diagnoses or sensitive medical information.</source>
+        <target>ಈ ಫಾರ್ಮ್ ಆಯ್ಕೆಮಾಡಿದ ಶಾಖೆಗೆ ನಿಮ್ಮ ವಿಚಾರಣೆಯೊಂದಿಗೆ ವಾಟ್ಸಾಪ್ ತೆರೆಯುತ್ತದೆ. ಅದನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ವಾಟ್ಸಾಪ್‌ನಲ್ಲಿ ಕಳುಹಿಸಿ ಒತ್ತಿರಿ. ನಿಮ್ಮ ವಿಚಾರಣೆಯನ್ನು ಈ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾಗುವುದಿಲ್ಲ. ದಯವಿಟ್ಟು ವೈದ್ಯರ ಚೀಟಿಗಳು, ರೋಗನಿರ್ಣಯಗಳು ಅಥವಾ ಸೂಕ್ಷ್ಮ ವೈದ್ಯಕೀಯ ಮಾಹಿತಿಯನ್ನು ಸೇರಿಸಬೇಡಿ.</target>
+      </segment>
+    </unit>
+    <unit id="contact.continue">
+      <segment>
+        <source>Continue to WhatsApp</source>
+        <target>ವಾಟ್ಸಾಪ್‌ಗೆ ಮುಂದುವರಿಯಿರಿ</target>
+      </segment>
+    </unit>
+    <unit id="contact.nameError">
+      <segment>
+        <source>Enter a name using 1–100 characters.</source>
+        <target>1–100 ಅಕ್ಷರಗಳ ಹೆಸರನ್ನು ನಮೂದಿಸಿ.</target>
+      </segment>
+    </unit>
+    <unit id="contact.phoneError">
+      <segment>
+        <source>Enter a valid phone number with 7–15 digits.</source>
+        <target>7–15 ಅಂಕಿಗಳ ಮಾನ್ಯ ದೂರವಾಣಿ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.</target>
+      </segment>
+    </unit>
+    <unit id="contact.branchError">
+      <segment>
+        <source>Choose a pharmacy for your enquiry.</source>
+        <target>ನಿಮ್ಮ ವಿಚಾರಣೆಗಾಗಿ ಔಷಧಾಲಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ.</target>
+      </segment>
+    </unit>
+    <unit id="contact.messageError">
+      <segment>
+        <source>Enter an enquiry using 1–1000 characters.</source>
+        <target>1–1000 ಅಕ್ಷರಗಳ ವಿಚಾರಣೆಯನ್ನು ನಮೂದಿಸಿ.</target>
+      </segment>
+    </unit>
+    <unit id="contact.branchMessageLabel">
+      <segment>
+        <source>Pharmacy</source>
+        <target>ಔಷಧಾಲಯ</target>
+      </segment>
+    </unit>
+    <unit id="contact.enquiryMessageLabel">
+      <segment>
+        <source>Enquiry</source>
+        <target>ವಿಚಾರಣೆ</target>
+      </segment>
+    </unit>
+    <unit id="contact.namoName">
+      <segment>
+        <source>Namo Generic Medicals</source>
+        <target>ನಮೋ ಜೆನೆರಿಕ್ ಮೆಡಿಕಲ್ಸ್</target>
+      </segment>
+    </unit>
+    <unit id="contact.cureName">
+      <segment>
+        <source>Cure Generic Medicals</source>
+        <target>ಕ್ಯೂರ್ ಜೆನೆರಿಕ್ ಮೆಡಿಕಲ್ಸ್</target>
+      </segment>
+    </unit>
+    <unit id="contact.cureGenericartName">
+      <segment>
+        <source>Cure Genericart Medicals</source>
+        <target>ಕ್ಯೂರ್ ಜೆನೆರಿಕಾರ್ಟ್ ಮೆಡಿಕಲ್ಸ್</target>
+      </segment>
+    </unit>
+    <unit id="contact.navanagarArea">
+      <segment>
+        <source>Navanagar, Hubli</source>
+        <target>ನವನಗರ, ಹುಬ್ಬಳ್ಳಿ</target>
+      </segment>
+    </unit>
+    <unit id="contact.srinagarArea">
+      <segment>
+        <source>Srinagar, Dharwad</source>
+        <target>ಶ್ರೀನಗರ, ಧಾರವಾಡ</target>
+      </segment>
+    </unit>
+    <unit id="contact.saptapurArea">
+      <segment>
+        <source>Saptapur, Dharwad</source>
+        <target>ಸಪ್ತಾಪುರ, ಧಾರವಾಡ</target>
+      </segment>
+    </unit>
+    <unit id="contact.gandhiChowkArea">
+      <segment>
+        <source>Gandhi Chowk, Dharwad</source>
+        <target>ಗಾಂಧಿ ಚೌಕ್, ಧಾರವಾಡ</target>
+      </segment>
+    </unit>
+    <unit id="contact.siddeshwarParkArea">
+      <segment>
+        <source>Siddeshwar Park, Hubli</source>
+        <target>ಸಿದ್ದೇಶ್ವರ ಪಾರ್ಕ್, ಹುಬ್ಬಳ್ಳಿ</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

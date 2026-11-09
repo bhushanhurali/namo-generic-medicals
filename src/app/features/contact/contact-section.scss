@@ -1,3 +1,113 @@
 :host {
   display: block;
 }
+.contact {
+  padding-block: 1.25rem 4rem;
+}
+.contact-heading {
+  max-width: 48rem;
+  margin-block-end: 2.5rem;
+}
+.eyebrow {
+  color: var(--color-link);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  font-weight: 750;
+}
+h2 {
+  font-size: clamp(1.875rem, 3.3vw, 2.8rem);
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+  margin: 1rem 0 1.5rem;
+  overflow-wrap: anywhere;
+}
+h2 span {
+  display: block;
+}
+h3 {
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+p {
+  color: var(--color-text-muted);
+  margin: 0 0 1.25rem;
+  font-size: 0.875rem;
+}
+.branch-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+.partner-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.partner-heading {
+  margin-block: 3rem 1.5rem;
+  max-width: 48rem;
+}
+.partner-heading h3 {
+  margin-block-start: 0.75rem;
+}
+form {
+  max-width: 44rem;
+  margin: 3.5rem auto 0;
+  padding: clamp(1.25rem, 4vw, 2.5rem);
+  border: 1px solid var(--color-border);
+  border-radius: 0.875rem;
+  background: var(--color-surface);
+}
+form h3 {
+  margin-block-start: 0.75rem;
+}
+label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 650;
+  margin-block: 0.75rem 0.4rem;
+}
+input,
+textarea {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 0.8rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.4rem;
+  background: var(--color-background);
+  color: var(--color-text);
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-text-muted);
+  opacity: 1;
+}
+textarea {
+  resize: vertical;
+}
+.error {
+  color: var(--color-error);
+  font-size: 0.8125rem;
+  margin-block-start: 0.25rem;
+}
+.privacy {
+  font-size: 0.75rem;
+  margin-block: 1.5rem;
+}
+:host-context([lang='kn']) h2 {
+  letter-spacing: normal;
+  line-height: 1.5;
+}
+@media (max-width: 64rem) {
+  .branch-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 40rem) {
+  .branch-grid {
+    grid-template-columns: 1fr;
+  }
+  form [appButton] {
+    width: 100%;
+  }
+}

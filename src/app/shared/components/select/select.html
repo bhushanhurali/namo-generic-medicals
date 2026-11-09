@@ -1,0 +1,62 @@
+<div class="picker">
+  <button
+    type="button"
+    class="trigger"
+    role="combobox"
+    aria-haspopup="listbox"
+    [id]="inputId()"
+    [disabled]="disabled()"
+    [attr.aria-labelledby]="labelledBy()"
+    [attr.aria-describedby]="describedBy()"
+    [attr.aria-invalid]="invalid()"
+    [attr.aria-required]="required()"
+    [attr.aria-expanded]="open()"
+    [attr.aria-controls]="open() ? inputId() + '-list' : null"
+    [attr.aria-activedescendant]="activeId()"
+    (click)="toggle()"
+    (keydown)="keydown($event)"
+  >
+    <span [class.placeholder]="!selected()">{{ selected()?.label || placeholder() }}</span>
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      focusable="false"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.8"
+    >
+      <path d="m6 9 6 6 6-6" />
+    </svg>
+  </button>
+  @if (open()) {
+    <div
+      class="list"
+      role="listbox"
+      [id]="inputId() + '-list'"
+      [attr.aria-labelledby]="labelledBy()"
+    >
+      @for (group of groups(); track $index; let groupIndex = $index) {
+        <div role="group" [attr.aria-labelledby]="inputId() + '-group-' + groupIndex">
+          <div class="group-label" [id]="inputId() + '-group-' + groupIndex">{{ group.label }}</div>
+          @for (option of group.options; track option.value) {
+            <div
+              role="option"
+              class="option"
+              [id]="optionId(option.value)"
+              [attr.aria-selected]="value() === option.value"
+              [class.selected]="value() === option.value"
+              [class.active]="activeId() === optionId(option.value)"
+              (mousedown)="$event.preventDefault()"
+              (click)="choose(option)"
+            >
+              <span>{{ option.label }}</span>
+              @if (value() === option.value) {
+                <span aria-hidden="true">✓</span>
+              }
+            </div>
+          }
+        </div>
+      }
+    </div>
+  }
+</div>

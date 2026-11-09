@@ -181,6 +181,426 @@
         <source>Get to know your local pharmacy</source>
       </segment>
     </unit>
+    <unit id="contact.eyebrow">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:4</note>
+        <note category="description">eyebrow</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>WE’RE CLOSE BY</source>
+      </segment>
+    </unit>
+    <unit id="contact.pharmacies">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:5</note>
+        <note category="description">pharmacies</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Your neighborhood pharmacies.</source>
+      </segment>
+    </unit>
+    <unit id="contact.location">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:6</note>
+        <note category="description">location</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Across Hubli-Dharwad.</source>
+      </segment>
+    </unit>
+    <unit id="contact.intro">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:7</note>
+        <note category="description">intro</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Contact a Namo branch or one of our partner pharmacies for medicine enquiries, pickup and local delivery.</source>
+      </segment>
+    </unit>
+    <unit id="contact.branchesTitle">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:8</note>
+        <note category="description">branchesTitle</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Namo Generic Medicals branches</source>
+      </segment>
+    </unit>
+    <unit id="contact.partnerEyebrow">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:9</note>
+        <note category="description">partnerEyebrow</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>OUR LOCAL PARTNERS</source>
+      </segment>
+    </unit>
+    <unit id="contact.partnersTitle">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:10</note>
+        <note category="description">partnersTitle</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Partner pharmacies</source>
+      </segment>
+    </unit>
+    <unit id="contact.partnerIntro">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:11</note>
+        <note category="description">partnerIntro</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>These independently owned pharmacies are part of our local partner network. Contact them directly using their own WhatsApp and map links below.</source>
+      </segment>
+    </unit>
+    <unit id="contact.branchBadge">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:12</note>
+        <note category="description">branchBadge</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Namo branch</source>
+      </segment>
+    </unit>
+    <unit id="contact.partnerBadge">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:13</note>
+        <note category="description">partnerBadge</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Partner pharmacy</source>
+      </segment>
+    </unit>
+    <unit id="contact.call">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:14</note>
+        <note category="description">call</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Call</source>
+      </segment>
+    </unit>
+    <unit id="contact.whatsapp">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:15</note>
+        <note category="description">whatsapp</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>WhatsApp</source>
+      </segment>
+    </unit>
+    <unit id="contact.maps">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:16</note>
+        <note category="description">maps</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Google Maps</source>
+      </segment>
+    </unit>
+    <unit id="contact.mapPending">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:17</note>
+        <note category="description">mapPending</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Map pin coming soon</source>
+      </segment>
+    </unit>
+    <unit id="contact.greeting">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:18</note>
+        <note category="description">greeting</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Hello, I would like to enquire about medicine availability, pricing, pickup or delivery.</source>
+      </segment>
+    </unit>
+    <unit id="contact.formEyebrow">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:19</note>
+        <note category="description">formEyebrow</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>SAY HELLO</source>
+      </segment>
+    </unit>
+    <unit id="contact.formTitle">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:20</note>
+        <note category="description">formTitle</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Enquire with a pharmacy</source>
+      </segment>
+    </unit>
+    <unit id="contact.formIntro">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:21</note>
+        <note category="description">formIntro</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Choose a pharmacy and prepare your enquiry for WhatsApp.</source>
+      </segment>
+    </unit>
+    <unit id="contact.nameLabel">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:22</note>
+        <note category="description">nameLabel</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Patient / full name</source>
+      </segment>
+    </unit>
+    <unit id="contact.namePlaceholder">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:23</note>
+        <note category="description">namePlaceholder</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Patient’s full name</source>
+      </segment>
+    </unit>
+    <unit id="contact.phoneLabel">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:24</note>
+        <note category="description">phoneLabel</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Patient phone number</source>
+      </segment>
+    </unit>
+    <unit id="contact.phonePlaceholder">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:25</note>
+        <note category="description">phonePlaceholder</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Patient’s phone number</source>
+      </segment>
+    </unit>
+    <unit id="contact.branchLabel">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:26</note>
+        <note category="description">branchLabel</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Choose a branch or partner pharmacy</source>
+      </segment>
+    </unit>
+    <unit id="contact.branchPlaceholder">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:27</note>
+        <note category="description">branchPlaceholder</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Select a pharmacy</source>
+      </segment>
+    </unit>
+    <unit id="contact.messageLabel">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:28</note>
+        <note category="description">messageLabel</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Message</source>
+      </segment>
+    </unit>
+    <unit id="contact.messagePlaceholder">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:29</note>
+        <note category="description">messagePlaceholder</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Ask about availability, pickup or delivery…</source>
+      </segment>
+    </unit>
+    <unit id="contact.privacy">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:30</note>
+        <note category="description">privacy</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>This form opens WhatsApp with your enquiry addressed to the selected branch. Review it and tap Send in WhatsApp. Your enquiry is not stored on this website. Please don’t include prescriptions, diagnoses or sensitive medical information.</source>
+      </segment>
+    </unit>
+    <unit id="contact.continue">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:31</note>
+        <note category="description">continue</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Continue to WhatsApp</source>
+      </segment>
+    </unit>
+    <unit id="contact.nameError">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:32</note>
+        <note category="description">nameError</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Enter a name using 1–100 characters.</source>
+      </segment>
+    </unit>
+    <unit id="contact.phoneError">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:33</note>
+        <note category="description">phoneError</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Enter a valid phone number with 7–15 digits.</source>
+      </segment>
+    </unit>
+    <unit id="contact.branchError">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:34</note>
+        <note category="description">branchError</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Choose a pharmacy for your enquiry.</source>
+      </segment>
+    </unit>
+    <unit id="contact.messageError">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:35</note>
+        <note category="description">messageError</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Enter an enquiry using 1–1000 characters.</source>
+      </segment>
+    </unit>
+    <unit id="contact.branchMessageLabel">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:36</note>
+        <note category="description">branchMessageLabel</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Pharmacy</source>
+      </segment>
+    </unit>
+    <unit id="contact.enquiryMessageLabel">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:37</note>
+        <note category="description">enquiryMessageLabel</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Enquiry</source>
+      </segment>
+    </unit>
+    <unit id="contact.namoName">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:38</note>
+        <note category="description">namoName</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Namo Generic Medicals</source>
+      </segment>
+    </unit>
+    <unit id="contact.cureName">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:39</note>
+        <note category="description">cureName</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Cure Generic Medicals</source>
+      </segment>
+    </unit>
+    <unit id="contact.cureGenericartName">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:40</note>
+        <note category="description">cureGenericartName</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Cure Genericart Medicals</source>
+      </segment>
+    </unit>
+    <unit id="contact.navanagarArea">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:41</note>
+        <note category="description">navanagarArea</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Navanagar, Hubli</source>
+      </segment>
+    </unit>
+    <unit id="contact.srinagarArea">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:42</note>
+        <note category="description">srinagarArea</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Srinagar, Dharwad</source>
+      </segment>
+    </unit>
+    <unit id="contact.saptapurArea">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:43</note>
+        <note category="description">saptapurArea</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Saptapur, Dharwad</source>
+      </segment>
+    </unit>
+    <unit id="contact.gandhiChowkArea">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:44</note>
+        <note category="description">gandhiChowkArea</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Gandhi Chowk, Dharwad</source>
+      </segment>
+    </unit>
+    <unit id="contact.siddeshwarParkArea">
+      <notes>
+        <note category="location">src/app/content/contact-content.ts:45</note>
+        <note category="description">siddeshwarParkArea</note>
+        <note category="meaning">Contact section</note>
+      </notes>
+      <segment>
+        <source>Siddeshwar Park, Hubli</source>
+      </segment>
+    </unit>
     <unit id="home.eyebrow">
       <notes>
         <note category="location">src/app/content/home-content.ts:3</note>

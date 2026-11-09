@@ -11,7 +11,8 @@ export type IconName =
   | 'medical-cross'
   | 'prescription'
   | 'search'
-  | 'heart';
+  | 'heart'
+  | 'phone';
 
 // Decorative icons inherit colour and size. Put accessible labels on the parent control.
 @Component({

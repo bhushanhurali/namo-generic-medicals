@@ -1,0 +1,20 @@
+<article [id]="'branch-' + branch().id" [attr.aria-labelledby]="'branch-title-' + branch().id">
+  <span class="badge">{{ branch().partner ? content.partnerBadge : content.branchBadge }}</span>
+  <h4 [id]="'branch-title-' + branch().id">{{ label().name }}</h4>
+  <p class="area">{{ label().area }}</p>
+  <a class="phone" [href]="phone()"
+    ><app-icon name="phone" /> {{ content.call }} {{ phoneLabel() }}</a
+  >
+  <div class="actions">
+    <a appButton buttonSize="compact" [href]="whatsapp()" target="_blank" rel="noopener noreferrer"
+      >{{ content.whatsapp }} <app-icon name="whatsapp"
+    /></a>
+    @if (branch().mapsUrl) {
+      <a class="map" [href]="branch().mapsUrl" target="_blank" rel="noopener noreferrer"
+        >{{ content.maps }} <app-icon name="map-pin"
+      /></a>
+    } @else {
+      <span class="map-pending">{{ content.mapPending }}</span>
+    }
+  </div>
+</article>

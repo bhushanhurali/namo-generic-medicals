@@ -1,0 +1,57 @@
+:host {
+  display: block;
+  min-width: 0;
+}
+article {
+  height: 100%;
+  padding: 1.5rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+}
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  background: var(--color-primary-soft);
+  color: var(--color-link);
+  font-size: 0.75rem;
+  font-weight: 650;
+  border-radius: 2rem;
+}
+h4 {
+  margin: 1rem 0 0.35rem;
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+p {
+  margin: 0 0 1rem;
+  color: var(--color-text-muted);
+}
+a {
+  text-underline-offset: 0.2em;
+}
+.phone {
+  display: inline-flex;
+  gap: 0.4rem;
+  align-items: center;
+  font-size: 0.875rem;
+  flex-wrap: wrap;
+}
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-block-start: 1.25rem;
+}
+.map {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8125rem;
+  font-weight: 650;
+}
+.map-pending {
+  color: var(--color-text-muted);
+  font-size: 0.8125rem;
+}
