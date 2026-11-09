@@ -168,7 +168,7 @@ The illustrative image uses the original Unsplash URL. Gallery currently display
 
 ## Header and anchor spacing
 
-The header is sticky on mobile and desktop. `ResizeObserver` updates
+The tagline is a separate SiteTopline component in normal page flow, so it scrolls away and returns when scrolling to the top. The navigation header stays sticky on mobile and desktop. Its measured height excludes the tagline. `ResizeObserver` updates
 `--site-header-height` when text wrapping, viewport width, or locale changes its
 height. The global scroll padding uses that measurement plus a small gap; section
 padding is kept separate so offsets are not counted twice. The mobile navigation

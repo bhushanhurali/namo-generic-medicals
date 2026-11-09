@@ -1,0 +1,16 @@
+:host {
+  display: block;
+}
+.topline {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  background: var(--color-primary-soft);
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+@media (max-width: 64rem) {
+  .topline {
+    font-size: 0.75rem;
+    padding: 0.25rem 1rem;
+  }
+}

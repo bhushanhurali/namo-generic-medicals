@@ -1,6 +1,7 @@
 import { Component, DOCUMENT, afterNextRender, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { SITE_CONTENT } from '../content/site-content';
+import { SiteTopline } from '../layout/site-topline/site-topline';
 import { SiteHeader } from '../layout/site-header/site-header';
 import { SiteFooter } from '../layout/site-footer/site-footer';
 
@@ -13,6 +14,7 @@ import { ContactSection } from '../features/contact/contact-section';
 @Component({
   imports: [
     RouterOutlet,
+    SiteTopline,
     SiteHeader,
     SiteFooter,
     HomeSection,

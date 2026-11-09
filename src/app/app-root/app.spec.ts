@@ -18,6 +18,11 @@ describe('App', () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
+    const topline = compiled.querySelector('app-site-topline')!;
+    const header = compiled.querySelector('app-site-header')!;
+    expect(topline.parentElement).toBe(header.parentElement);
+    expect(topline.nextElementSibling).toBe(header);
+    expect(header.querySelector('.topline')).toBeNull();
     expect(compiled.querySelectorAll('h1').length).toBe(1);
     expect(compiled.querySelector('h1')?.textContent).toContain('Quality Medicines.');
     expect(compiled.querySelector('#about h2')?.textContent).toContain('Your health matters.');
