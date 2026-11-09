@@ -48,7 +48,7 @@ is restored when the application starts. If storage is blocked, switching still 
 for the current visit. OS dark-mode preference does not override the default.
 
 The mobile navigation opens with the menu button and closes on Escape or a link
-selection. Navigation links to Home, About, Services, Gallery, and Contact. Home, About, Services, and Contact are implemented. Gallery remains a heading-only placeholder until actual store photos are available.
+selection. Navigation links to Home, About, Services, Gallery, and Contact. Home, About, Services, and Contact are implemented. Gallery includes the six local sample images and supports adding actual store photos.
 The layout includes a keyboard skip link and a shared footer.
 
 ## Localisation
@@ -116,7 +116,7 @@ Future page components belong in their respective feature folders.
 ## Section layout
 
 Each page section has its own component folder under `src/app/features/`.
-Home, About, Services, and Contact are implemented; Gallery awaits actual store photographs.
+Home, About, Services, and Contact are implemented; Gallery currently displays the supplied illustrative sample images.
 Shared section spacing is defined by `.page-section` in `src/styles.scss`.
 
 Navigation uses native fragment links (`#home`, `#about`, `#services`, `#gallery`,
@@ -164,7 +164,7 @@ About recreates the original image-and-text layout, community caption, Genericar
 partner information, and generic-medicine note. Copy and image descriptions live in
 `src/app/content/about-content.ts` with matching Kannada translations. Official
 Genericart links open in a separate tab; the local pharmacy link goes to Contact.
-The illustrative image uses the original Unsplash URL. Gallery awaits actual store photographs.
+The illustrative image uses the original Unsplash URL. Gallery currently displays the supplied illustrative sample images.
 
 ## Header and anchor spacing
 
@@ -182,7 +182,7 @@ Kannada translations. The layout adapts from three columns to one on smaller
 screens and uses shared icons and button styling. Panel colours are centralised in
 `src/styles/_theme.scss` and derive from the primary colour.
 
-The WhatsApp action navigates to Contact, where visitors can choose a branch and prepare an enquiry. Gallery remains a heading-only placeholder.
+The WhatsApp action navigates to Contact, where visitors can choose a branch and prepare an enquiry. Gallery supports an expandable list of local images.
 Additional shared icons: `medical-cross`, `prescription`, `search`, and `heart`.
 
 ## Contact and branch details
@@ -200,7 +200,7 @@ reviews and sends it in WhatsApp. No backend, website storage, or automatic send
 is used. Validation messages and drafts follow the selected language.
 
 Home and Services actions already link to Contact, where visitors can now choose a
-pharmacy from the cards or enquiry form. Gallery remains unchanged pending photos.
+pharmacy from the cards or enquiry form. Gallery currently uses the supplied illustrative sample images.
 
 ## Custom form picker
 
@@ -210,3 +210,38 @@ location-only, styles selected items with the primary colour, and uses rounded,
 scrollable menus in both themes. It supports keyboard navigation, type-ahead,
 Escape/Tab dismissal, outside-click dismissal, disabled controls, and form resets.
 Its visible label and validation descriptions are supplied by the consuming form.
+
+## Gallery photos
+
+Gallery metadata lives in `src/app/data/gallery-photos.ts`. To add or replace photos:
+
+1. Put the file in `src/assets/images/`. Angular copies assets into both locale builds.
+2. Add caption and alt-text messages in `src/app/content/gallery-content.ts`.
+3. Add a `GALLERY_PHOTOS` entry using a unique `id`, relative `src`, translated
+   `caption`, and translated `alt`. Example:
+
+```ts
+{
+  id: 'navanagar-front',
+  src: 'assets/images/navanagar-front.avif',
+  caption: text.navanagarFrontCaption,
+  alt: text.navanagarFrontAlt,
+  sample: false,
+}
+```
+
+4. Run `npm run i18n:extract`, add the corresponding Kannada translations, and build.
+
+Replacing a file at the same path needs no metadata change unless its description
+changes. The current six entries are illustrative images from the original website,
+so they have `sample: true`. Set `sample: false` (or omit it) for actual pharmacy
+photographs. The introduction changes automatically when actual photos are included;
+only sample images display the illustrative-image notice in the viewer.
+
+All photos appear in one continuous row, whether there are 6, 10, or more.
+The row loops seamlessly; loop copies are excluded
+from keyboard and screen-reader navigation. Hover pauses a row, keyboard focus
+provides a stable manual row, and the icon-only Pause/Play control stops or resumes the row. Reduced-motion users
+get manually scrollable rows without automatic movement. The native modal viewer
+supports previous/next wrapping, arrow keys, Escape, backdrop closing, captions,
+and returning focus to the original photo. Page scrolling is locked only while open.

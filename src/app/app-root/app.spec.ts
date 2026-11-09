@@ -37,10 +37,6 @@ describe('App', () => {
       expect(section.tagName).toBe('SECTION');
       const heading = section.querySelector('h1, h2')!;
       expect(section.getAttribute('aria-labelledby')).toBe(heading.id);
-      if (link.hash === '#gallery') {
-        expect(section.children.length).toBe(1);
-        expect(heading.textContent?.trim()).toBe(link.textContent?.trim());
-      }
     }
   });
 });

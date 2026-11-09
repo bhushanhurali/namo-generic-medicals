@@ -1,0 +1,67 @@
+<dialog
+  #viewer
+  [attr.aria-label]="content.viewer"
+  aria-describedby="gallery-photo-caption"
+  (cancel)="$event.preventDefault(); close()"
+  (close)="closed()"
+  (keydown)="keydown($event)"
+  (click)="backdrop($event)"
+>
+  @if (photo(); as current) {
+    <div class="viewer">
+      <div class="toolbar">
+        <span aria-hidden="true">{{ (index() ?? 0) + 1 }} / {{ photos().length }}</span>
+        <button
+          appButton="icon"
+          type="button"
+          class="close"
+          [attr.aria-label]="content.close"
+          (click)="close()"
+        >
+          <app-icon name="close" />
+        </button>
+      </div>
+      <figure>
+        <div class="viewing-area">
+          @if (imageError()) {
+            <p class="image-error" role="status">{{ content.error }}</p>
+          }
+          <img
+            [src]="current.src"
+            [alt]="current.alt"
+            [hidden]="imageError()"
+            (error)="imageError.set(true)"
+          />
+          <button
+            appButton="icon"
+            type="button"
+            class="previous"
+            [attr.aria-label]="content.previous"
+            [attr.title]="content.previous"
+            [disabled]="photos().length < 2"
+            (click)="navigate(-1)"
+          >
+            <app-icon name="chevron-left" />
+          </button>
+          <button
+            appButton="icon"
+            type="button"
+            class="next"
+            [attr.aria-label]="content.next"
+            [attr.title]="content.next"
+            [disabled]="photos().length < 2"
+            (click)="navigate(1)"
+          >
+            <app-icon name="chevron-right" />
+          </button>
+        </div>
+        <figcaption id="gallery-photo-caption" aria-live="polite">
+          <strong>{{ current.caption }}</strong>
+          @if (current.sample) {
+            <small>{{ content.sampleNotice }}</small>
+          }
+        </figcaption>
+      </figure>
+    </div>
+  }
+</dialog>

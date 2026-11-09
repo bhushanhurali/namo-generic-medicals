@@ -601,6 +601,266 @@
         <source>Siddeshwar Park, Hubli</source>
       </segment>
     </unit>
+    <unit id="gallery.actualIntro">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:2</note>
+        <note category="description">Introduction when actual photos are included</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>A look at our pharmacies and everyday care.</source>
+      </segment>
+    </unit>
+    <unit id="gallery.eyebrow">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:3</note>
+        <note category="description">eyebrow</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>A LOOK INSIDE</source>
+      </segment>
+    </unit>
+    <unit id="gallery.heading">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:4</note>
+        <note category="description">heading</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>A familiar place for care.</source>
+      </segment>
+    </unit>
+    <unit id="gallery.intro">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:5</note>
+        <note category="description">intro</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Illustrative pharmacy images for now. Our actual store photographs are coming soon.</source>
+      </segment>
+    </unit>
+    <unit id="gallery.sample">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:6</note>
+        <note category="description">sample</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Sample</source>
+      </segment>
+    </unit>
+    <unit id="gallery.sampleNotice">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:7</note>
+        <note category="description">sampleNotice</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Illustrative image, not a photograph of Namo Generic Medicals.</source>
+      </segment>
+    </unit>
+    <unit id="gallery.pause">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:8</note>
+        <note category="description">pause</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Pause scrolling</source>
+      </segment>
+    </unit>
+    <unit id="gallery.resume">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:9</note>
+        <note category="description">resume</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Resume scrolling</source>
+      </segment>
+    </unit>
+    <unit id="gallery.viewer">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:10</note>
+        <note category="description">viewer</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Photo viewer</source>
+      </segment>
+    </unit>
+    <unit id="gallery.previous">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:11</note>
+        <note category="description">previous</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Previous photo</source>
+      </segment>
+    </unit>
+    <unit id="gallery.next">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:12</note>
+        <note category="description">next</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Next photo</source>
+      </segment>
+    </unit>
+    <unit id="gallery.close">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:13</note>
+        <note category="description">close</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Close photo viewer</source>
+      </segment>
+    </unit>
+    <unit id="gallery.empty">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:14</note>
+        <note category="description">empty</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Photos coming soon.</source>
+      </segment>
+    </unit>
+    <unit id="gallery.error">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:15</note>
+        <note category="description">error</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>This photo could not be loaded.</source>
+      </segment>
+    </unit>
+    <unit id="gallery.packagedCaption">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:16</note>
+        <note category="description">packagedCaption</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Packaged medicines</source>
+      </segment>
+    </unit>
+    <unit id="gallery.packagedAlt">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:17</note>
+        <note category="description">packagedAlt</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Illustrative packaged medicines</source>
+      </segment>
+    </unit>
+    <unit id="gallery.everydayCaption">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:18</note>
+        <note category="description">everydayCaption</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Everyday medicines</source>
+      </segment>
+    </unit>
+    <unit id="gallery.everydayAlt">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:19</note>
+        <note category="description">everydayAlt</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Illustrative everyday medicines</source>
+      </segment>
+    </unit>
+    <unit id="gallery.essentialsCaption">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:20</note>
+        <note category="description">essentialsCaption</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Healthcare essentials</source>
+      </segment>
+    </unit>
+    <unit id="gallery.essentialsAlt">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:21</note>
+        <note category="description">essentialsAlt</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Illustrative healthcare essentials</source>
+      </segment>
+    </unit>
+    <unit id="gallery.productsCaption">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:22</note>
+        <note category="description">productsCaption</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Medicine products</source>
+      </segment>
+    </unit>
+    <unit id="gallery.productsAlt">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:23</note>
+        <note category="description">productsAlt</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Illustrative medicine products</source>
+      </segment>
+    </unit>
+    <unit id="gallery.careCaption">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:24</note>
+        <note category="description">careCaption</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Pharmacy care</source>
+      </segment>
+    </unit>
+    <unit id="gallery.careAlt">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:25</note>
+        <note category="description">careAlt</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Illustrative pharmacy care</source>
+      </segment>
+    </unit>
+    <unit id="gallery.serviceCaption">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:26</note>
+        <note category="description">serviceCaption</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Healthcare service</source>
+      </segment>
+    </unit>
+    <unit id="gallery.serviceAlt">
+      <notes>
+        <note category="location">src/app/content/gallery-content.ts:27</note>
+        <note category="description">serviceAlt</note>
+        <note category="meaning">Gallery</note>
+      </notes>
+      <segment>
+        <source>Illustrative healthcare service</source>
+      </segment>
+    </unit>
     <unit id="home.eyebrow">
       <notes>
         <note category="location">src/app/content/home-content.ts:3</note>

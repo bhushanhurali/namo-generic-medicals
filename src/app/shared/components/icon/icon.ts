@@ -12,7 +12,11 @@ export type IconName =
   | 'prescription'
   | 'search'
   | 'heart'
-  | 'phone';
+  | 'phone'
+  | 'chevron-left'
+  | 'chevron-right'
+  | 'play'
+  | 'pause';
 
 // Decorative icons inherit colour and size. Put accessible labels on the parent control.
 @Component({

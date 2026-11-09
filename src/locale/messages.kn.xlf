@@ -805,5 +805,161 @@
         <target>ಸಿದ್ದೇಶ್ವರ ಪಾರ್ಕ್, ಹುಬ್ಬಳ್ಳಿ</target>
       </segment>
     </unit>
+    <unit id="gallery.eyebrow">
+      <segment>
+        <source>A LOOK INSIDE</source>
+        <target>ಒಳನೋಟ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.heading">
+      <segment>
+        <source>A familiar place for care.</source>
+        <target>ಆರೈಕೆಗಾಗಿ ಪರಿಚಿತ ಸ್ಥಳ.</target>
+      </segment>
+    </unit>
+    <unit id="gallery.intro">
+      <segment>
+        <source>Illustrative pharmacy images for now. Our actual store photographs are coming soon.</source>
+        <target>ಸದ್ಯಕ್ಕೆ ಔಷಧಾಲಯದ ಪ್ರಾತಿನಿಧಿಕ ಚಿತ್ರಗಳು. ನಮ್ಮ ನಿಜವಾದ ಅಂಗಡಿಯ ಫೋಟೋಗಳು ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿವೆ.</target>
+      </segment>
+    </unit>
+    <unit id="gallery.sample">
+      <segment>
+        <source>Sample</source>
+        <target>ಮಾದರಿ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.sampleNotice">
+      <segment>
+        <source>Illustrative image, not a photograph of Namo Generic Medicals.</source>
+        <target>ಪ್ರಾತಿನಿಧಿಕ ಚಿತ್ರ, ನಮೋ ಜೆನೆರಿಕ್ ಮೆಡಿಕಲ್ಸ್‌ನ ಫೋಟೋ ಅಲ್ಲ.</target>
+      </segment>
+    </unit>
+    <unit id="gallery.pause">
+      <segment>
+        <source>Pause scrolling</source>
+        <target>ಸ್ಕ್ರೋಲಿಂಗ್ ನಿಲ್ಲಿಸಿ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.resume">
+      <segment>
+        <source>Resume scrolling</source>
+        <target>ಸ್ಕ್ರೋಲಿಂಗ್ ಮುಂದುವರಿಸಿ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.viewer">
+      <segment>
+        <source>Photo viewer</source>
+        <target>ಫೋಟೋ ವೀಕ್ಷಕ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.previous">
+      <segment>
+        <source>Previous photo</source>
+        <target>ಹಿಂದಿನ ಫೋಟೋ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.next">
+      <segment>
+        <source>Next photo</source>
+        <target>ಮುಂದಿನ ಫೋಟೋ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.close">
+      <segment>
+        <source>Close photo viewer</source>
+        <target>ಫೋಟೋ ವೀಕ್ಷಕವನ್ನು ಮುಚ್ಚಿರಿ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.empty">
+      <segment>
+        <source>Photos coming soon.</source>
+        <target>ಫೋಟೋಗಳು ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿವೆ.</target>
+      </segment>
+    </unit>
+    <unit id="gallery.error">
+      <segment>
+        <source>This photo could not be loaded.</source>
+        <target>ಈ ಫೋಟೋವನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</target>
+      </segment>
+    </unit>
+    <unit id="gallery.packagedCaption">
+      <segment>
+        <source>Packaged medicines</source>
+        <target>ಪ್ಯಾಕ್ ಮಾಡಿದ ಔಷಧಿಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="gallery.packagedAlt">
+      <segment>
+        <source>Illustrative packaged medicines</source>
+        <target>ಪ್ಯಾಕ್ ಮಾಡಿದ ಔಷಧಿಗಳ ಪ್ರಾತಿನಿಧಿಕ ಚಿತ್ರ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.everydayCaption">
+      <segment>
+        <source>Everyday medicines</source>
+        <target>ದೈನಂದಿನ ಔಷಧಿಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="gallery.everydayAlt">
+      <segment>
+        <source>Illustrative everyday medicines</source>
+        <target>ದೈನಂದಿನ ಔಷಧಿಗಳ ಪ್ರಾತಿನಿಧಿಕ ಚಿತ್ರ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.essentialsCaption">
+      <segment>
+        <source>Healthcare essentials</source>
+        <target>ಆರೋಗ್ಯ ಆರೈಕೆಯ ಅಗತ್ಯ ವಸ್ತುಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="gallery.essentialsAlt">
+      <segment>
+        <source>Illustrative healthcare essentials</source>
+        <target>ಆರೋಗ್ಯ ಆರೈಕೆಯ ಅಗತ್ಯ ವಸ್ತುಗಳ ಪ್ರಾತಿನಿಧಿಕ ಚಿತ್ರ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.productsCaption">
+      <segment>
+        <source>Medicine products</source>
+        <target>ಔಷಧಿ ಉತ್ಪನ್ನಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="gallery.productsAlt">
+      <segment>
+        <source>Illustrative medicine products</source>
+        <target>ಔಷಧಿ ಉತ್ಪನ್ನಗಳ ಪ್ರಾತಿನಿಧಿಕ ಚಿತ್ರ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.careCaption">
+      <segment>
+        <source>Pharmacy care</source>
+        <target>ಔಷಧಾಲಯದ ಆರೈಕೆ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.careAlt">
+      <segment>
+        <source>Illustrative pharmacy care</source>
+        <target>ಔಷಧಾಲಯದ ಆರೈಕೆಯ ಪ್ರಾತಿನಿಧಿಕ ಚಿತ್ರ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.serviceCaption">
+      <segment>
+        <source>Healthcare service</source>
+        <target>ಆರೋಗ್ಯ ಸೇವೆ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.serviceAlt">
+      <segment>
+        <source>Illustrative healthcare service</source>
+        <target>ಆರೋಗ್ಯ ಸೇವೆಯ ಪ್ರಾತಿನಿಧಿಕ ಚಿತ್ರ</target>
+      </segment>
+    </unit>
+    <unit id="gallery.actualIntro">
+      <segment>
+        <source>A look at our pharmacies and everyday care.</source>
+        <target>ನಮ್ಮ ಔಷಧಾಲಯಗಳು ಮತ್ತು ದೈನಂದಿನ ಆರೈಕೆಯ ಒಂದು ನೋಟ.</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

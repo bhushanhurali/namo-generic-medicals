@@ -1,0 +1,34 @@
+<div class="row" [class.paused]="paused()">
+  <div class="track" [style.animation-duration]="tiles().length * 5 + 's'">
+    @for (copy of copies; track copy) {
+      <div
+        class="sequence"
+        [class.loop-copy]="copy === 1"
+        [attr.aria-hidden]="copy === 1 ? 'true' : null"
+      >
+        @for (tile of tiles(); track $index) {
+          <button
+            type="button"
+            aria-haspopup="dialog"
+            class="photo"
+            [class.duplicate]="tile.duplicate"
+            [attr.aria-hidden]="copy === 1 || tile.duplicate ? 'true' : null"
+            [attr.tabindex]="copy === 1 || tile.duplicate ? -1 : 0"
+            [attr.data-original]="copy === 0 && !tile.duplicate ? tile.photo.id : null"
+            (mousedown)="$event.preventDefault()"
+            (click)="select(tile.photo)"
+          >
+            <img [src]="tile.photo.src" [alt]="tile.photo.alt" loading="lazy" decoding="async" />
+            <span class="caption"
+              >{{ tile.photo.caption }}
+              @if (tile.photo.sample) {
+                <small>· {{ content.sample }}</small>
+              }
+              <span aria-hidden="true">↗</span></span
+            >
+          </button>
+        }
+      </div>
+    }
+  </div>
+</div>

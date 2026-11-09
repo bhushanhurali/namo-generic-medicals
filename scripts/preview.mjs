@@ -13,6 +13,11 @@ const types = {
   '.ico': 'image/x-icon',
   '.svg': 'image/svg+xml',
   '.json': 'application/json',
+  '.avif': 'image/avif',
+  '.webp': 'image/webp',
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.png': 'image/png',
 };
 
 export function startPreview(port = 4200) {

@@ -1,3 +1,52 @@
 :host {
   display: block;
+  min-width: 0;
+}
+.gallery {
+  padding-block: 1.25rem 4rem;
+}
+.section-heading {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+.eyebrow {
+  color: var(--color-link);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  font-weight: 750;
+}
+h2 {
+  font-size: clamp(1.875rem, 3.3vw, 2.8rem);
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+  margin: 1rem 0 1.5rem;
+}
+p {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+.gallery-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-block: 0.5rem 1rem;
+}
+:host-context([lang='kn']) h2 {
+  letter-spacing: normal;
+  line-height: 1.5;
+}
+@media (max-width: 48rem) {
+  .section-heading {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .gallery {
+    padding-block-end: 2.5rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gallery-controls {
+    display: none;
+  }
 }

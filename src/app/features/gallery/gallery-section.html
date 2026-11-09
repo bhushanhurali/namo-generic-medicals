@@ -1,3 +1,30 @@
-<section id="gallery" class="page-section" aria-labelledby="gallery-heading" tabindex="-1">
-  <h2 id="gallery-heading">{{ content.gallery }}</h2>
+<section id="gallery" class="gallery" aria-labelledby="gallery-heading" tabindex="-1">
+  <div class="section-heading">
+    <div>
+      <span class="eyebrow">{{ content.eyebrow }}</span>
+      <h2 id="gallery-heading">{{ content.heading }}</h2>
+    </div>
+    <p>{{ allSamples ? content.intro : content.actualIntro }}</p>
+  </div>
+  @if (photos.length) {
+    <div class="gallery-controls">
+      <button
+        appButton="icon"
+        type="button"
+        [attr.aria-label]="paused() ? content.resume : content.pause"
+        [attr.title]="paused() ? content.resume : content.pause"
+        (click)="paused.set(!paused())"
+      >
+        <app-icon [name]="paused() ? 'play' : 'pause'" />
+      </button>
+    </div>
+    <app-gallery-row
+      [photos]="photos"
+      [paused]="paused() || viewerOpen()"
+      (photoSelected)="openPhoto($event)"
+    />
+  } @else {
+    <p>{{ content.empty }}</p>
+  }
+  <app-photo-viewer [photos]="photos" (opened)="viewerOpen.set($event)" />
 </section>
