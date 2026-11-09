@@ -1,6 +1,186 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-IN">
   <file id="ngi18n" original="ng.template">
+    <unit id="about.imageAlt">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:3</note>
+        <note category="description">imageAlt</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>Illustrative medicines and pharmacy essentials</source>
+      </segment>
+    </unit>
+    <unit id="about.imageLabel">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:4</note>
+        <note category="description">imageLabel</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>ILLUSTRATIVE IMAGE · STORE PHOTOS COMING SOON</source>
+      </segment>
+    </unit>
+    <unit id="about.community">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:5</note>
+        <note category="description">community</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>Rooted in our community.</source>
+      </segment>
+    </unit>
+    <unit id="about.family">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:6</note>
+        <note category="description">family</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>Here for your family.</source>
+      </segment>
+    </unit>
+    <unit id="about.eyebrow">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:7</note>
+        <note category="description">eyebrow</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>HELLO, NEIGHBOR</source>
+      </segment>
+    </unit>
+    <unit id="about.healthTitle">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:8</note>
+        <note category="description">healthTitle</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>Your health matters.</source>
+      </segment>
+    </unit>
+    <unit id="about.budgetTitle">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:9</note>
+        <note category="description">budgetTitle</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>So does your budget.</source>
+      </segment>
+    </unit>
+    <unit id="about.mission">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:10</note>
+        <note category="description">mission</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>At Namo Generic Medicals, we aim to make essential medicines more affordable and accessible for families across Hubli-Dharwad.</source>
+      </segment>
+    </unit>
+    <unit id="about.service">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:11</note>
+        <note category="description">service</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>We bring together generic medicines, personal attention and convenient service — helping you find what you need, closer to home.</source>
+      </segment>
+    </unit>
+    <unit id="about.partnerIntro">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:12</note>
+        <note category="description">partnerIntro</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>As a franchise partner of</source>
+      </segment>
+    </unit>
+    <unit id="about.partnerName">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:13</note>
+        <note category="description">partnerName</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>Genericart Medicine</source>
+      </segment>
+    </unit>
+    <unit id="about.partnerMission">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:14</note>
+        <note category="description">partnerMission</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>, we share its mission of reducing the financial burden of healthcare and bringing affordable generic medicines closer to communities across India.</source>
+      </segment>
+    </unit>
+    <unit id="about.network">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:15</note>
+        <note category="description">network</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>Genericart Medicine brings together a nationwide franchise network, supply chain management and operational support focused on access to affordable medicines. At Namo, we bring that purpose into everyday local care — with personal assistance, medicine availability checks and convenient pickup or eligible home delivery.</source>
+      </segment>
+    </unit>
+    <unit id="about.focus">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:16</note>
+        <note category="description">focus</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>Our focus is simple: help families explore affordable medicine options and make informed choices with their pharmacist.</source>
+      </segment>
+    </unit>
+    <unit id="about.learnMore">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:17</note>
+        <note category="description">learnMore</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>Learn about Genericart Medicine</source>
+      </segment>
+    </unit>
+    <unit id="about.noteTitle">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:18</note>
+        <note category="description">noteTitle</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>A note on generic medicines</source>
+      </segment>
+    </unit>
+    <unit id="about.note">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:19</note>
+        <note category="description">note</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>Appropriate generic alternatives may contain the same active ingredients, strength and dosage form as corresponding branded medicines. Always confirm suitability and any substitution with your pharmacist or doctor.</source>
+      </segment>
+    </unit>
+    <unit id="about.contact">
+      <notes>
+        <note category="location">src/app/content/about-content.ts:20</note>
+        <note category="description">contact</note>
+        <note category="meaning">About section</note>
+      </notes>
+      <segment>
+        <source>Get to know your local pharmacy</source>
+      </segment>
+    </unit>
     <unit id="home.eyebrow">
       <notes>
         <note category="location">src/app/content/home-content.ts:3</note>
@@ -409,9 +589,27 @@
         <source>Switch to light theme</source>
       </segment>
     </unit>
-    <unit id="nav.skip">
+    <unit id="language.english">
       <notes>
         <note category="location">src/app/content/site-content.ts:18</note>
+        <note category="description">Language link action</note>
+      </notes>
+      <segment>
+        <source>Switch to English</source>
+      </segment>
+    </unit>
+    <unit id="language.kannada">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:19</note>
+        <note category="description">Language link action</note>
+      </notes>
+      <segment>
+        <source>Switch to Kannada</source>
+      </segment>
+    </unit>
+    <unit id="nav.skip">
+      <notes>
+        <note category="location">src/app/content/site-content.ts:20</note>
         <note category="description">Keyboard navigation link</note>
       </notes>
       <segment>
@@ -420,7 +618,7 @@
     </unit>
     <unit id="nav.top">
       <notes>
-        <note category="location">src/app/content/site-content.ts:19</note>
+        <note category="location">src/app/content/site-content.ts:21</note>
         <note category="description">Footer navigation link</note>
       </notes>
       <segment>
@@ -429,7 +627,7 @@
     </unit>
     <unit id="footer.rights">
       <notes>
-        <note category="location">src/app/content/site-content.ts:20</note>
+        <note category="location">src/app/content/site-content.ts:22</note>
         <note category="description">Copyright notice</note>
       </notes>
       <segment>

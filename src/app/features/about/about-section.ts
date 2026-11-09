@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SITE_CONTENT } from '../../content/site-content';
+import { ABOUT_CONTENT } from '../../content/about-content';
 
 @Component({
   selector: 'app-about-section',
@@ -7,5 +7,5 @@ import { SITE_CONTENT } from '../../content/site-content';
   styleUrl: './about-section.scss',
 })
 export class AboutSection {
-  protected readonly content = SITE_CONTENT;
+  protected readonly content = ABOUT_CONTENT;
 }

@@ -1,0 +1,21 @@
+// About section copy. Partner sentence fragments keep the official link inline.
+export const ABOUT_CONTENT = {
+  imageAlt: $localize`:About section|imageAlt@@about.imageAlt:Illustrative medicines and pharmacy essentials`,
+  imageLabel: $localize`:About section|imageLabel@@about.imageLabel:ILLUSTRATIVE IMAGE · STORE PHOTOS COMING SOON`,
+  community: $localize`:About section|community@@about.community:Rooted in our community.`,
+  family: $localize`:About section|family@@about.family:Here for your family.`,
+  eyebrow: $localize`:About section|eyebrow@@about.eyebrow:HELLO, NEIGHBOR`,
+  healthTitle: $localize`:About section|healthTitle@@about.healthTitle:Your health matters.`,
+  budgetTitle: $localize`:About section|budgetTitle@@about.budgetTitle:So does your budget.`,
+  mission: $localize`:About section|mission@@about.mission:At Namo Generic Medicals, we aim to make essential medicines more affordable and accessible for families across Hubli-Dharwad.`,
+  service: $localize`:About section|service@@about.service:We bring together generic medicines, personal attention and convenient service — helping you find what you need, closer to home.`,
+  partnerIntro: $localize`:About section|partnerIntro@@about.partnerIntro:As a franchise partner of`,
+  partnerName: $localize`:About section|partnerName@@about.partnerName:Genericart Medicine`,
+  partnerMission: $localize`:About section|partnerMission@@about.partnerMission:, we share its mission of reducing the financial burden of healthcare and bringing affordable generic medicines closer to communities across India.`,
+  network: $localize`:About section|network@@about.network:Genericart Medicine brings together a nationwide franchise network, supply chain management and operational support focused on access to affordable medicines. At Namo, we bring that purpose into everyday local care — with personal assistance, medicine availability checks and convenient pickup or eligible home delivery.`,
+  focus: $localize`:About section|focus@@about.focus:Our focus is simple: help families explore affordable medicine options and make informed choices with their pharmacist.`,
+  learnMore: $localize`:About section|learnMore@@about.learnMore:Learn about Genericart Medicine`,
+  noteTitle: $localize`:About section|noteTitle@@about.noteTitle:A note on generic medicines`,
+  note: $localize`:About section|note@@about.note:Appropriate generic alternatives may contain the same active ingredients, strength and dosage form as corresponding branded medicines. Always confirm suitability and any substitution with your pharmacist or doctor.`,
+  contact: $localize`:About section|contact@@about.contact:Get to know your local pharmacy`,
+} as const;

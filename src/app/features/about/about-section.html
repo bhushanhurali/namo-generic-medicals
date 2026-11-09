@@ -1,3 +1,42 @@
-<section id="about" class="page-section" aria-labelledby="about-heading" tabindex="-1">
-  <h2 id="about-heading">{{ content.about }}</h2>
+<section id="about" class="about" aria-labelledby="about-heading" tabindex="-1">
+  <div class="about-image">
+    <img
+      loading="lazy"
+      src="https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&fit=crop&w=1000&q=80"
+      [alt]="content.imageAlt"
+      width="1000"
+      height="1140"
+    />
+    <div class="local-tag">
+      {{ content.community }}<strong>{{ content.family }}</strong>
+    </div>
+    <span class="image-label">{{ content.imageLabel }}</span>
+  </div>
+  <div class="about-copy">
+    <span class="eyebrow">{{ content.eyebrow }}</span>
+    <h2 id="about-heading">
+      <span>{{ content.healthTitle }}</span
+      ><span>{{ content.budgetTitle }}</span>
+    </h2>
+    <p>{{ content.mission }}</p>
+    <p>{{ content.service }}</p>
+    <p>
+      {{ content.partnerIntro }}
+      <a href="https://www.genericartmedicine.com/" target="_blank" rel="noopener noreferrer"
+        >{{ content.partnerName }} <span aria-hidden="true">↗</span></a
+      >{{ content.partnerMission }}
+    </p>
+    <p>{{ content.network }}</p>
+    <p>
+      {{ content.focus }}
+      <a href="https://www.genericartmedicine.com/about" target="_blank" rel="noopener noreferrer"
+        >{{ content.learnMore }} <span aria-hidden="true">↗</span></a
+      >
+    </p>
+    <aside class="info-note" aria-labelledby="generic-note-heading">
+      <h3 id="generic-note-heading">{{ content.noteTitle }}</h3>
+      <p>{{ content.note }}</p>
+    </aside>
+    <a href="#contact">{{ content.contact }} <span aria-hidden="true">↗</span></a>
+  </div>
 </section>

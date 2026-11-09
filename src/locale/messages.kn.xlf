@@ -277,5 +277,125 @@
         <target>ಸರಳ ವಾಟ್ಸಾಪ್ ವಿಚಾರಣೆಯ ಮೂಲಕ ಔಷಧಿಗಳ ಲಭ್ಯತೆ, ಬೆಲೆ ಮತ್ತು ಸ್ಥಳೀಯ ವಿತರಣೆಯ ಬಗ್ಗೆ ತಿಳಿಯಿರಿ.</target>
       </segment>
     </unit>
+    <unit id="about.imageAlt">
+      <segment>
+        <source>Illustrative medicines and pharmacy essentials</source>
+        <target>ಔಷಧಿಗಳು ಮತ್ತು ಔಷಧಾಲಯದ ಅಗತ್ಯ ವಸ್ತುಗಳ ಪ್ರಾತಿನಿಧಿಕ ಚಿತ್ರ</target>
+      </segment>
+    </unit>
+    <unit id="about.imageLabel">
+      <segment>
+        <source>ILLUSTRATIVE IMAGE · STORE PHOTOS COMING SOON</source>
+        <target>ಪ್ರಾತಿನಿಧಿಕ ಚಿತ್ರ · ಅಂಗಡಿಯ ಫೋಟೋಗಳು ಶೀಘ್ರದಲ್ಲೇ</target>
+      </segment>
+    </unit>
+    <unit id="about.community">
+      <segment>
+        <source>Rooted in our community.</source>
+        <target>ನಮ್ಮ ಸಮುದಾಯದೊಂದಿಗೆ ಬೆಸೆದುಕೊಂಡಿದ್ದೇವೆ.</target>
+      </segment>
+    </unit>
+    <unit id="about.family">
+      <segment>
+        <source>Here for your family.</source>
+        <target>ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕಾಗಿ ಇಲ್ಲಿದ್ದೇವೆ.</target>
+      </segment>
+    </unit>
+    <unit id="about.eyebrow">
+      <segment>
+        <source>HELLO, NEIGHBOR</source>
+        <target>ನಮಸ್ಕಾರ, ನೆರೆಹೊರೆಯವರೇ</target>
+      </segment>
+    </unit>
+    <unit id="about.healthTitle">
+      <segment>
+        <source>Your health matters.</source>
+        <target>ನಿಮ್ಮ ಆರೋಗ್ಯ ಮುಖ್ಯ.</target>
+      </segment>
+    </unit>
+    <unit id="about.budgetTitle">
+      <segment>
+        <source>So does your budget.</source>
+        <target>ನಿಮ್ಮ ಬಜೆಟ್ ಕೂಡ ಮುಖ್ಯ.</target>
+      </segment>
+    </unit>
+    <unit id="about.mission">
+      <segment>
+        <source>At Namo Generic Medicals, we aim to make essential medicines more affordable and accessible for families across Hubli-Dharwad.</source>
+        <target>ನಮೋ ಜೆನೆರಿಕ್ ಮೆಡಿಕಲ್ಸ್‌ನಲ್ಲಿ, ಹುಬ್ಬಳ್ಳಿ–ಧಾರವಾಡದ ಕುಟುಂಬಗಳಿಗೆ ಅಗತ್ಯ ಔಷಧಿಗಳನ್ನು ಇನ್ನಷ್ಟು ಕೈಗೆಟುಕುವ ಬೆಲೆಯಲ್ಲಿ ಮತ್ತು ಸುಲಭವಾಗಿ ಲಭ್ಯವಾಗಿಸುವುದು ನಮ್ಮ ಗುರಿಯಾಗಿದೆ.</target>
+      </segment>
+    </unit>
+    <unit id="about.service">
+      <segment>
+        <source>We bring together generic medicines, personal attention and convenient service — helping you find what you need, closer to home.</source>
+        <target>ಜೆನೆರಿಕ್ ಔಷಧಿಗಳು, ವೈಯಕ್ತಿಕ ಕಾಳಜಿ ಮತ್ತು ಅನುಕೂಲಕರ ಸೇವೆಯನ್ನು ಒಟ್ಟುಗೂಡಿಸಿ, ನಿಮಗೆ ಬೇಕಾದುದನ್ನು ಮನೆಯ ಹತ್ತಿರವೇ ಪಡೆಯಲು ನಾವು ನೆರವಾಗುತ್ತೇವೆ.</target>
+      </segment>
+    </unit>
+    <unit id="about.partnerIntro">
+      <segment>
+        <source>As a franchise partner of</source>
+        <target>ನಾವು ಫ್ರಾಂಚೈಸ್ ಪಾಲುದಾರರಾಗಿರುವ</target>
+      </segment>
+    </unit>
+    <unit id="about.partnerName">
+      <segment>
+        <source>Genericart Medicine</source>
+        <target>ಜೆನೆರಿಕಾರ್ಟ್ ಮೆಡಿಸಿನ್</target>
+      </segment>
+    </unit>
+    <unit id="about.partnerMission">
+      <segment>
+        <source d5p1:space="preserve" xmlns:d5p1="http://www.w3.org/XML/1998/namespace">, we share its mission of reducing the financial burden of healthcare and bringing affordable generic medicines closer to communities across India.</source>
+        <target d5p1:space="preserve" xmlns:d5p1="http://www.w3.org/XML/1998/namespace"> ಸಂಸ್ಥೆಯೊಂದಿಗೆ, ಆರೋಗ್ಯಸೇವೆಯ ಆರ್ಥಿಕ ಹೊರೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಿ, ಭಾರತದ ಸಮುದಾಯಗಳಿಗೆ ಕೈಗೆಟುಕುವ ಜೆನೆರಿಕ್ ಔಷಧಿಗಳನ್ನು ಹತ್ತಿರವಾಗಿಸುವ ಧ್ಯೇಯವನ್ನು ಹಂಚಿಕೊಳ್ಳುತ್ತೇವೆ.</target>
+      </segment>
+    </unit>
+    <unit id="about.network">
+      <segment>
+        <source>Genericart Medicine brings together a nationwide franchise network, supply chain management and operational support focused on access to affordable medicines. At Namo, we bring that purpose into everyday local care — with personal assistance, medicine availability checks and convenient pickup or eligible home delivery.</source>
+        <target>ಜೆನೆರಿಕಾರ್ಟ್ ಮೆಡಿಸಿನ್ ಕೈಗೆಟುಕುವ ಔಷಧಿಗಳ ಲಭ್ಯತೆಯ ಮೇಲೆ ಕೇಂದ್ರೀಕರಿಸಿದ ದೇಶವ್ಯಾಪಿ ಫ್ರಾಂಚೈಸ್ ಜಾಲ, ಪೂರೈಕೆ ಸರಪಳಿ ನಿರ್ವಹಣೆ ಮತ್ತು ಕಾರ್ಯಾಚರಣೆಯ ಬೆಂಬಲವನ್ನು ಒಟ್ಟುಗೂಡಿಸುತ್ತದೆ. ನಮೋದಲ್ಲಿ, ವೈಯಕ್ತಿಕ ನೆರವು, ಔಷಧಿಗಳ ಲಭ್ಯತೆ ಪರಿಶೀಲನೆ ಮತ್ತು ಅನುಕೂಲಕರ ಅಂಗಡಿ ಸಂಗ್ರಹಣೆ ಅಥವಾ ಅರ್ಹ ಪ್ರದೇಶಗಳಿಗೆ ಮನೆ ವಿತರಣೆಯ ಮೂಲಕ ಈ ಉದ್ದೇಶವನ್ನು ದೈನಂದಿನ ಸ್ಥಳೀಯ ಆರೈಕೆಯಲ್ಲಿ ಅಳವಡಿಸುತ್ತೇವೆ.</target>
+      </segment>
+    </unit>
+    <unit id="about.focus">
+      <segment>
+        <source>Our focus is simple: help families explore affordable medicine options and make informed choices with their pharmacist.</source>
+        <target>ನಮ್ಮ ಗಮನ ಸರಳವಾಗಿದೆ: ಕುಟುಂಬಗಳು ಕೈಗೆಟುಕುವ ಔಷಧಿ ಆಯ್ಕೆಗಳನ್ನು ತಿಳಿದುಕೊಂಡು, ತಮ್ಮ ಔಷಧಗಾರರೊಂದಿಗೆ ಸಮಾಲೋಚಿಸಿ ಸೂಕ್ತ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು ನೆರವಾಗುವುದು.</target>
+      </segment>
+    </unit>
+    <unit id="about.learnMore">
+      <segment>
+        <source>Learn about Genericart Medicine</source>
+        <target>ಜೆನೆರಿಕಾರ್ಟ್ ಮೆಡಿಸಿನ್ ಬಗ್ಗೆ ತಿಳಿಯಿರಿ</target>
+      </segment>
+    </unit>
+    <unit id="about.noteTitle">
+      <segment>
+        <source>A note on generic medicines</source>
+        <target>ಜೆನೆರಿಕ್ ಔಷಧಿಗಳ ಕುರಿತು ಒಂದು ಟಿಪ್ಪಣಿ</target>
+      </segment>
+    </unit>
+    <unit id="about.note">
+      <segment>
+        <source>Appropriate generic alternatives may contain the same active ingredients, strength and dosage form as corresponding branded medicines. Always confirm suitability and any substitution with your pharmacist or doctor.</source>
+        <target>ಸೂಕ್ತ ಜೆನೆರಿಕ್ ಪರ್ಯಾಯಗಳು ಸಂಬಂಧಿತ ಬ್ರಾಂಡೆಡ್ ಔಷಧಿಗಳಂತೆಯೇ ಸಕ್ರಿಯ ಅಂಶಗಳು, ಪ್ರಮಾಣ ಮತ್ತು ಔಷಧದ ರೂಪವನ್ನು ಹೊಂದಿರಬಹುದು. ಸೂಕ್ತತೆ ಮತ್ತು ಯಾವುದೇ ಬದಲಾವಣೆಯನ್ನು ಯಾವಾಗಲೂ ನಿಮ್ಮ ಔಷಧಗಾರರು ಅಥವಾ ವೈದ್ಯರೊಂದಿಗೆ ದೃಢೀಕರಿಸಿ.</target>
+      </segment>
+    </unit>
+    <unit id="about.contact">
+      <segment>
+        <source>Get to know your local pharmacy</source>
+        <target>ನಿಮ್ಮ ಸ್ಥಳೀಯ ಔಷಧಾಲಯವನ್ನು ಪರಿಚಯಿಸಿಕೊಳ್ಳಿ</target>
+      </segment>
+    </unit>
+    <unit id="language.english">
+      <segment>
+        <source>Switch to English</source>
+        <target>ಇಂಗ್ಲಿಷ್‌ಗೆ ಬದಲಿಸಿ</target>
+      </segment>
+    </unit>
+    <unit id="language.kannada">
+      <segment>
+        <source>Switch to Kannada</source>
+        <target>ಕನ್ನಡಕ್ಕೆ ಬದಲಿಸಿ</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

@@ -11,7 +11,7 @@ npm ci
 npm start
 ```
 
-Open http://localhost:4200. The development server reloads when files change.
+Open http://localhost:4200. Both language versions rebuild when files change; refresh the browser after a rebuild. Set the PORT environment variable to use a different port.
 
 ## Checks
 
@@ -48,7 +48,7 @@ is restored when the application starts. If storage is blocked, switching still 
 for the current visit. OS dark-mode preference does not override the default.
 
 The mobile navigation opens with the menu button and closes on Escape or a link
-selection. Navigation links to Home, About, Services, Gallery, and Contact. Home contains the hero, benefits, and care cards. The remaining sections contain headings only.
+selection. Navigation links to Home, About, Services, Gallery, and Contact. Home and About contain their original website content. The remaining sections contain headings only.
 The layout includes a keyboard skip link and a shared footer.
 
 ## Localisation
@@ -62,30 +62,35 @@ Run `npm run i18n:extract` after changing copy. This updates
 `src/locale/messages.en.xlf`, the XLIFF 2 source catalogue for translators.
 Do not edit that generated file directly; edit the content file and extract again.
 
-## Kannada test preview
+## Languages and preview
 
-The current content and shared-layout labels have Kannada translations in `src/locale/messages.kn.xlf`.
-The pharmacy name is transliterated as ನಮೋ ಜೆನೆರಿಕ್ ಮೆಡಿಕಲ್ಸ್.
+`npm start` watches and rebuilds both English and Kannada, serving them at `/` and
+`/kn/` on http://localhost:4200. Refresh after rebuilds. For a production preview,
+use `npm run preview`. Both commands support the `PORT` environment variable.
 
-```sh
-npm run start:kn
-```
+`npm run build` now emits both languages under `dist/namo-generic-medicals/browser/`.
+Upload that entire directory when configuring hosting. The English page is at its
+root, with Kannada under `kn/`. `npm run build:kn` remains a Kannada-only build.
 
-Open http://localhost:4200/kn/ to preview Kannada. Stop any existing English
-development server first, or pass `-- --port 4201` to use another port.
+The desktop language control appears next to the theme button. On mobile both
+controls are inside the menu. `ಕ` opens Kannada; `EN` opens English. Switching
+loads the corresponding static page and preserves query parameters and section
+fragments. The app restores the section after Angular renders it.
 
-`npm run build:kn` produces the Kannada production build under
-`dist/namo-generic-medicals/browser/kn/` and fails on missing translations.
-The generated HTML declares `lang="kn"`.
+On an initial English-root visit, `public/language-init.js` checks the device's
+primary browser language before Angular loads. Kannada (`kn` or `kn-IN`) selects
+Kannada; every other language defaults to English. An explicit Kannada URL stays
+Kannada. A manual choice is stored as `namo-language` and overrides device detection.
+Clear that local-storage key to test first-visit detection again. Storage being
+blocked does not prevent URL-based switching or device detection.
 
-`npm start` and `npm run build` remain English only. There is no language selector
-or Kannada deployment in this version. Future language links can navigate between
-static locale versions; Angular localisation loads a new page when switching.
+Angular's native live server supports one locale at a time. Use `npm run start:en`
+or `npm run start:kn` for single-language editing with live reload. For actual
+language-switch testing, use the bilingual `npm start` or `npm run preview` commands.
 
 As English copy grows, run `npm run i18n:extract` and update the Kannada catalogue
-with matching IDs, English sources, and Kannada targets. Future accessible labels
-and page titles should also use localised messages. Allow text to wrap and use
-fonts that support Kannada.
+with matching IDs, English sources, and Kannada targets. Localised builds fail on
+missing translations. Run `npm run test:language` for startup-detection checks.
 
 ## Code structure
 
@@ -111,13 +116,11 @@ Future page components belong in their respective feature folders.
 ## Section layout
 
 Each page section has its own component folder under `src/app/features/`.
-Home is implemented; the other sections remain heading-only placeholders.
+Home and About are implemented; Services, Gallery, and Contact remain heading-only placeholders.
 Shared section spacing is defined by `.page-section` in `src/styles.scss`.
 
 Navigation uses native fragment links (`#home`, `#about`, `#services`, `#gallery`,
-`#contact`). On desktop the header stays visible and anchor scrolling leaves room
-above section headings. At widths up to 64rem the header scrolls with the page,
-so the expanded mobile menu cannot cover a destination after navigation.
+`#contact`). The header stays visible at all screen sizes. Anchor scrolling uses its measured height, and the mobile menu overlays the page without changing the scroll offset.
 Smooth scrolling is disabled when the visitor prefers reduced motion.
 
 ## Home section
@@ -155,3 +158,20 @@ Import `Icon` from `shared/components/icon/icon`. Supported names are `whatsapp`
 set `--icon-size` in the consuming stylesheet to change their size. They are always
 decorative: provide visible text or a translated accessible label on the parent.
 No icon library or external SVG requests are required.
+
+## About section
+
+About recreates the original image-and-text layout, community caption, Genericart
+partner information, and generic-medicine note. Copy and image descriptions live in
+`src/app/content/about-content.ts` with matching Kannada translations. Official
+Genericart links open in a separate tab; the local pharmacy link goes to Contact.
+The illustrative image uses the original Unsplash URL. Services, Gallery, and
+Contact remain placeholders for subsequent steps.
+
+## Header and anchor spacing
+
+The header is sticky on mobile and desktop. `ResizeObserver` updates
+`--site-header-height` when text wrapping, viewport width, or locale changes its
+height. The global scroll padding uses that measurement plus a small gap; section
+padding is kept separate so offsets are not counted twice. The mobile navigation
+opens below the header with its own scroll area and closes after link selection.
