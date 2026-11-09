@@ -48,7 +48,7 @@ is restored when the application starts. If storage is blocked, switching still 
 for the current visit. OS dark-mode preference does not override the default.
 
 The mobile navigation opens with the menu button and closes on Escape or a link
-selection. Navigation links to Home, About, Services, Gallery, and Contact. Home and About contain their original website content. The remaining sections contain headings only.
+selection. Navigation links to Home, About, Services, Gallery, and Contact. Home, About, and Services contain their original website content. The remaining sections contain headings only.
 The layout includes a keyboard skip link and a shared footer.
 
 ## Localisation
@@ -116,7 +116,7 @@ Future page components belong in their respective feature folders.
 ## Section layout
 
 Each page section has its own component folder under `src/app/features/`.
-Home and About are implemented; Services, Gallery, and Contact remain heading-only placeholders.
+Home, About, and Services are implemented; Gallery and Contact remain heading-only placeholders.
 Shared section spacing is defined by `.page-section` in `src/styles.scss`.
 
 Navigation uses native fragment links (`#home`, `#about`, `#services`, `#gallery`,
@@ -175,3 +175,15 @@ The header is sticky on mobile and desktop. `ResizeObserver` updates
 height. The global scroll padding uses that measurement plus a small gap; section
 padding is kept separate so offsets are not counted twice. The mobile navigation
 opens below the header with its own scroll area and closes after link selection.
+
+## Services section
+
+Services recreates the six service entries and three-step enquiry panel from the
+original website. Copy lives in `src/app/content/services-content.ts` with matching
+Kannada translations. The layout adapts from three columns to one on smaller
+screens and uses shared icons and button styling. Panel colours are centralised in
+`src/styles/_theme.scss` and derive from the primary colour.
+
+The WhatsApp action navigates to Contact, where branch selection and enquiry links
+will be connected later. Gallery and Contact remain heading-only placeholders.
+Additional shared icons: `medical-cross`, `prescription`, `search`, and `heart`.

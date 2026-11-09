@@ -461,6 +461,266 @@
         <source>Check medicine availability, pricing and local delivery with a simple WhatsApp enquiry.</source>
       </segment>
     </unit>
+    <unit id="services.eyebrow">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:3</note>
+        <note category="description">eyebrow</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>HOW WE CAN HELP</source>
+      </segment>
+    </unit>
+    <unit id="services.essentials">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:4</note>
+        <note category="description">essentials</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Everyday essentials.</source>
+      </segment>
+    </unit>
+    <unit id="services.attention">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:5</note>
+        <note category="description">attention</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Extraordinary attention.</source>
+      </segment>
+    </unit>
+    <unit id="services.intro">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:6</note>
+        <note category="description">intro</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Simple, convenient pharmacy services for your everyday needs.</source>
+      </segment>
+    </unit>
+    <unit id="services.genericTitle">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:7</note>
+        <note category="description">genericTitle</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Generic medicines</source>
+      </segment>
+    </unit>
+    <unit id="services.genericDescription">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:8</note>
+        <note category="description">genericDescription</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Enquire about affordable generic options and discuss suitability with our pharmacist.</source>
+      </segment>
+    </unit>
+    <unit id="services.prescriptionTitle">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:9</note>
+        <note category="description">prescriptionTitle</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Prescription enquiries</source>
+      </segment>
+    </unit>
+    <unit id="services.prescriptionDescription">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:10</note>
+        <note category="description">prescriptionDescription</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Valid prescription required. Dispensing is subject to pharmacist verification and applicable Indian regulations.</source>
+      </segment>
+    </unit>
+    <unit id="services.deliveryTitle">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:11</note>
+        <note category="description">deliveryTitle</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Local home delivery</source>
+      </segment>
+    </unit>
+    <unit id="services.deliveryDescription">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:12</note>
+        <note category="description">deliveryDescription</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Convenient delivery in eligible nearby areas, subject to availability and confirmed charges.</source>
+      </segment>
+    </unit>
+    <unit id="services.availabilityTitle">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:13</note>
+        <note category="description">availabilityTitle</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Availability checks</source>
+      </segment>
+    </unit>
+    <unit id="services.availabilityDescription">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:14</note>
+        <note category="description">availabilityDescription</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Check whether your medicines are available before making a trip to the store.</source>
+      </segment>
+    </unit>
+    <unit id="services.whatsappTitle">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:15</note>
+        <note category="description">whatsappTitle</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>WhatsApp assistance</source>
+      </segment>
+    </unit>
+    <unit id="services.whatsappDescription">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:16</note>
+        <note category="description">whatsappDescription</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Get help with your enquiry, confirm prices and arrange pickup or eligible delivery.</source>
+      </segment>
+    </unit>
+    <unit id="services.healthcareTitle">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:17</note>
+        <note category="description">healthcareTitle</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Healthcare essentials</source>
+      </segment>
+    </unit>
+    <unit id="services.healthcareDescription">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:18</note>
+        <note category="description">healthcareDescription</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Ask about everyday healthcare essentials available at your nearest branch.</source>
+      </segment>
+    </unit>
+    <unit id="services.stepsEyebrow">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:19</note>
+        <note category="description">stepsEyebrow</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>A FEW SIMPLE STEPS</source>
+      </segment>
+    </unit>
+    <unit id="services.medicines">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:20</note>
+        <note category="description">medicines</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Your medicines.</source>
+      </segment>
+    </unit>
+    <unit id="services.hassle">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:21</note>
+        <note category="description">hassle</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Without the extra hassle.</source>
+      </segment>
+    </unit>
+    <unit id="services.talk">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:22</note>
+        <note category="description">talk</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Let’s talk on WhatsApp</source>
+      </segment>
+    </unit>
+    <unit id="services.contactTitle">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:23</note>
+        <note category="description">contactTitle</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Contact us</source>
+      </segment>
+    </unit>
+    <unit id="services.contactDescription">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:24</note>
+        <note category="description">contactDescription</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Send us a WhatsApp message or call our pharmacy.</source>
+      </segment>
+    </unit>
+    <unit id="services.confirmTitle">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:25</note>
+        <note category="description">confirmTitle</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Confirm availability</source>
+      </segment>
+    </unit>
+    <unit id="services.confirmDescription">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:26</note>
+        <note category="description">confirmDescription</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Discuss your medicine requirements and confirm availability, pricing and delivery eligibility. For prescription medicines, arrange a valid prescription directly with the pharmacy.</source>
+      </segment>
+    </unit>
+    <unit id="services.pickupTitle">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:27</note>
+        <note category="description">pickupTitle</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Pickup or delivery</source>
+      </segment>
+    </unit>
+    <unit id="services.pickupDescription">
+      <notes>
+        <note category="location">src/app/content/services-content.ts:28</note>
+        <note category="description">pickupDescription</note>
+        <note category="meaning">Services section</note>
+      </notes>
+      <segment>
+        <source>Arrange store pickup or home delivery, subject to availability and applicable requirements.</source>
+      </segment>
+    </unit>
     <unit id="site.name">
       <notes>
         <note category="location">src/app/content/site-content.ts:4</note>

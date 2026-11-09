@@ -1,3 +1,40 @@
-<section id="services" class="page-section" aria-labelledby="services-heading" tabindex="-1">
-  <h2 id="services-heading">{{ content.services }}</h2>
+<section id="services" class="services" aria-labelledby="services-heading" tabindex="-1">
+  <div class="section-heading">
+    <span class="eyebrow">{{ content.eyebrow }}</span>
+    <h2 id="services-heading">
+      <span>{{ content.essentials }}</span
+      ><span>{{ content.attention }}</span>
+    </h2>
+    <p>{{ content.intro }}</p>
+  </div>
+  <div class="service-grid">
+    @for (service of services; track service.icon) {
+      <article>
+        <span class="service-icon"><app-icon [name]="service.icon" /></span>
+        <h3>{{ service.title }}</h3>
+        <p>{{ service.description }}</p>
+      </article>
+    }
+  </div>
+  <div class="order" aria-labelledby="order-heading">
+    <div class="order-header">
+      <div>
+        <span class="eyebrow">{{ content.stepsEyebrow }}</span>
+        <h2 id="order-heading">
+          <span>{{ content.medicines }}</span
+          ><span>{{ content.hassle }}</span>
+        </h2>
+      </div>
+      <a appButton href="#contact">{{ content.talk }} <app-icon name="whatsapp" /></a>
+    </div>
+    <ol class="steps">
+      @for (step of steps; track step.number) {
+        <li>
+          <span class="step-number" aria-hidden="true">{{ step.number }}</span>
+          <h3>{{ step.title }}</h3>
+          <p>{{ step.description }}</p>
+        </li>
+      }
+    </ol>
+  </div>
 </section>

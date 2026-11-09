@@ -397,5 +397,161 @@
         <target>ಕನ್ನಡಕ್ಕೆ ಬದಲಿಸಿ</target>
       </segment>
     </unit>
+    <unit id="services.eyebrow">
+      <segment>
+        <source>HOW WE CAN HELP</source>
+        <target>ನಾವು ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು</target>
+      </segment>
+    </unit>
+    <unit id="services.essentials">
+      <segment>
+        <source>Everyday essentials.</source>
+        <target>ದೈನಂದಿನ ಅಗತ್ಯಗಳು.</target>
+      </segment>
+    </unit>
+    <unit id="services.attention">
+      <segment>
+        <source>Extraordinary attention.</source>
+        <target>ವಿಶೇಷ ಕಾಳಜಿ.</target>
+      </segment>
+    </unit>
+    <unit id="services.intro">
+      <segment>
+        <source>Simple, convenient pharmacy services for your everyday needs.</source>
+        <target>ನಿಮ್ಮ ದೈನಂದಿನ ಅಗತ್ಯಗಳಿಗೆ ಸರಳ ಮತ್ತು ಅನುಕೂಲಕರ ಔಷಧಾಲಯ ಸೇವೆಗಳು.</target>
+      </segment>
+    </unit>
+    <unit id="services.genericTitle">
+      <segment>
+        <source>Generic medicines</source>
+        <target>ಜೆನೆರಿಕ್ ಔಷಧಿಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="services.genericDescription">
+      <segment>
+        <source>Enquire about affordable generic options and discuss suitability with our pharmacist.</source>
+        <target>ಕೈಗೆಟುಕುವ ಜೆನೆರಿಕ್ ಆಯ್ಕೆಗಳ ಬಗ್ಗೆ ವಿಚಾರಿಸಿ ಮತ್ತು ಸೂಕ್ತತೆಯನ್ನು ನಮ್ಮ ಔಷಧಗಾರರೊಂದಿಗೆ ಚರ್ಚಿಸಿ.</target>
+      </segment>
+    </unit>
+    <unit id="services.prescriptionTitle">
+      <segment>
+        <source>Prescription enquiries</source>
+        <target>ವೈದ್ಯರ ಚೀಟಿಯ ಕುರಿತು ವಿಚಾರಣೆಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="services.prescriptionDescription">
+      <segment>
+        <source>Valid prescription required. Dispensing is subject to pharmacist verification and applicable Indian regulations.</source>
+        <target>ಮಾನ್ಯ ವೈದ್ಯರ ಚೀಟಿ ಅಗತ್ಯವಿದೆ. ಔಷಧಿ ವಿತರಣೆಯು ಔಷಧಗಾರರ ಪರಿಶೀಲನೆ ಮತ್ತು ಅನ್ವಯವಾಗುವ ಭಾರತೀಯ ನಿಯಮಗಳಿಗೆ ಒಳಪಟ್ಟಿರುತ್ತದೆ.</target>
+      </segment>
+    </unit>
+    <unit id="services.deliveryTitle">
+      <segment>
+        <source>Local home delivery</source>
+        <target>ಸ್ಥಳೀಯ ಮನೆ ವಿತರಣೆ</target>
+      </segment>
+    </unit>
+    <unit id="services.deliveryDescription">
+      <segment>
+        <source>Convenient delivery in eligible nearby areas, subject to availability and confirmed charges.</source>
+        <target>ಲಭ್ಯತೆ ಮತ್ತು ದೃಢೀಕರಿಸಿದ ಶುಲ್ಕಗಳಿಗೆ ಒಳಪಟ್ಟು, ಅರ್ಹ ಹತ್ತಿರದ ಪ್ರದೇಶಗಳಲ್ಲಿ ಅನುಕೂಲಕರ ವಿತರಣೆ.</target>
+      </segment>
+    </unit>
+    <unit id="services.availabilityTitle">
+      <segment>
+        <source>Availability checks</source>
+        <target>ಲಭ್ಯತೆ ಪರಿಶೀಲನೆ</target>
+      </segment>
+    </unit>
+    <unit id="services.availabilityDescription">
+      <segment>
+        <source>Check whether your medicines are available before making a trip to the store.</source>
+        <target>ಅಂಗಡಿಗೆ ಬರುವ ಮೊದಲು ನಿಮ್ಮ ಔಷಧಿಗಳು ಲಭ್ಯವಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.</target>
+      </segment>
+    </unit>
+    <unit id="services.whatsappTitle">
+      <segment>
+        <source>WhatsApp assistance</source>
+        <target>ವಾಟ್ಸಾಪ್ ನೆರವು</target>
+      </segment>
+    </unit>
+    <unit id="services.whatsappDescription">
+      <segment>
+        <source>Get help with your enquiry, confirm prices and arrange pickup or eligible delivery.</source>
+        <target>ನಿಮ್ಮ ವಿಚಾರಣೆಗೆ ನೆರವು ಪಡೆಯಿರಿ, ಬೆಲೆಗಳನ್ನು ದೃಢೀಕರಿಸಿ ಮತ್ತು ಅಂಗಡಿ ಸಂಗ್ರಹಣೆ ಅಥವಾ ಅರ್ಹ ವಿತರಣೆಯನ್ನು ವ್ಯವಸ್ಥೆಗೊಳಿಸಿ.</target>
+      </segment>
+    </unit>
+    <unit id="services.healthcareTitle">
+      <segment>
+        <source>Healthcare essentials</source>
+        <target>ಆರೋಗ್ಯ ಆರೈಕೆಯ ಅಗತ್ಯ ವಸ್ತುಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="services.healthcareDescription">
+      <segment>
+        <source>Ask about everyday healthcare essentials available at your nearest branch.</source>
+        <target>ನಿಮ್ಮ ಹತ್ತಿರದ ಶಾಖೆಯಲ್ಲಿ ಲಭ್ಯವಿರುವ ದೈನಂದಿನ ಆರೋಗ್ಯ ಆರೈಕೆಯ ಅಗತ್ಯ ವಸ್ತುಗಳ ಬಗ್ಗೆ ಕೇಳಿ.</target>
+      </segment>
+    </unit>
+    <unit id="services.stepsEyebrow">
+      <segment>
+        <source>A FEW SIMPLE STEPS</source>
+        <target>ಕೆಲವು ಸರಳ ಹಂತಗಳು</target>
+      </segment>
+    </unit>
+    <unit id="services.medicines">
+      <segment>
+        <source>Your medicines.</source>
+        <target>ನಿಮ್ಮ ಔಷಧಿಗಳು.</target>
+      </segment>
+    </unit>
+    <unit id="services.hassle">
+      <segment>
+        <source>Without the extra hassle.</source>
+        <target>ಹೆಚ್ಚುವರಿ ತೊಂದರೆಯಿಲ್ಲದೆ.</target>
+      </segment>
+    </unit>
+    <unit id="services.talk">
+      <segment>
+        <source>Let’s talk on WhatsApp</source>
+        <target>ವಾಟ್ಸಾಪ್‌ನಲ್ಲಿ ಮಾತನಾಡೋಣ</target>
+      </segment>
+    </unit>
+    <unit id="services.contactTitle">
+      <segment>
+        <source>Contact us</source>
+        <target>ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</target>
+      </segment>
+    </unit>
+    <unit id="services.contactDescription">
+      <segment>
+        <source>Send us a WhatsApp message or call our pharmacy.</source>
+        <target>ನಮಗೆ ವಾಟ್ಸಾಪ್ ಸಂದೇಶ ಕಳುಹಿಸಿ ಅಥವಾ ನಮ್ಮ ಔಷಧಾಲಯಕ್ಕೆ ಕರೆ ಮಾಡಿ.</target>
+      </segment>
+    </unit>
+    <unit id="services.confirmTitle">
+      <segment>
+        <source>Confirm availability</source>
+        <target>ಲಭ್ಯತೆಯನ್ನು ದೃಢೀಕರಿಸಿ</target>
+      </segment>
+    </unit>
+    <unit id="services.confirmDescription">
+      <segment>
+        <source>Discuss your medicine requirements and confirm availability, pricing and delivery eligibility. For prescription medicines, arrange a valid prescription directly with the pharmacy.</source>
+        <target>ನಿಮ್ಮ ಔಷಧಿಗಳ ಅಗತ್ಯಗಳನ್ನು ಚರ್ಚಿಸಿ ಮತ್ತು ಲಭ್ಯತೆ, ಬೆಲೆ ಹಾಗೂ ವಿತರಣೆಯ ಅರ್ಹತೆಯನ್ನು ದೃಢೀಕರಿಸಿ. ವೈದ್ಯರ ಚೀಟಿ ಅಗತ್ಯವಿರುವ ಔಷಧಿಗಳಿಗೆ, ಮಾನ್ಯ ಚೀಟಿಯನ್ನು ನೇರವಾಗಿ ಔಷಧಾಲಯಕ್ಕೆ ಒದಗಿಸಿ.</target>
+      </segment>
+    </unit>
+    <unit id="services.pickupTitle">
+      <segment>
+        <source>Pickup or delivery</source>
+        <target>ಅಂಗಡಿ ಸಂಗ್ರಹಣೆ ಅಥವಾ ವಿತರಣೆ</target>
+      </segment>
+    </unit>
+    <unit id="services.pickupDescription">
+      <segment>
+        <source>Arrange store pickup or home delivery, subject to availability and applicable requirements.</source>
+        <target>ಲಭ್ಯತೆ ಮತ್ತು ಅನ್ವಯವಾಗುವ ಅವಶ್ಯಕತೆಗಳಿಗೆ ಒಳಪಟ್ಟು, ಅಂಗಡಿಯಿಂದ ಸಂಗ್ರಹಣೆ ಅಥವಾ ಮನೆ ವಿತರಣೆಯನ್ನು ವ್ಯವಸ್ಥೆಗೊಳಿಸಿ.</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

@@ -6,6 +6,14 @@ $primary: #1bb2b0;
   --color-primary: #{$primary};
   --color-primary-hover: color-mix(in srgb, var(--color-primary), black 15%);
   --color-on-primary: #102421;
+  --color-panel-background: color-mix(in srgb, var(--color-primary) 22%, #102421);
+  --color-panel-text: #ffffff;
+  --color-panel-muted: #d4e4df;
+  --color-panel-border: color-mix(
+    in srgb,
+    var(--color-panel-text) 30%,
+    var(--color-panel-background)
+  );
 
   // Light is the default, regardless of the operating system preference.
   color-scheme: light;
